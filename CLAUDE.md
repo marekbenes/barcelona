@@ -90,7 +90,9 @@ Autentická, trendy čtvrť na úpatí Montjuïc. Jedna z nejméně turistickýc
 
 **Jak na Montjuïc z hotelu:**
 - Eskalátory od Plaza España → MNAC (nejpohodlnější)
-- Funicular ze stanice Paral·lel (součást metrojízdenky!) → Miramar → lanovkou na hrad
+- ~~Funicular ze stanice Paral·lel~~ **UZAVŘEN do 2. 3. 2026** (práce na Carrer de Vila i Vilà)
+- ~~Lanovkou na hrad~~ **Telefèric UZAVŘEN do 2. 3. 2026** (údržba)
+- **Bus 150** z Pl. Espanya → Castell de Montjuïc (náhradní doprava)
 - Pěšky přes Carrer Poeta Cabanyes → Jardins de Laribal → Fundació Miró
 
 ### Barri Gòtic (Gotická čtvrť) - 15-20 min pěšky
@@ -129,7 +131,7 @@ Bohémská, artová - bývalé samostatné město. Atmosféra vesnice uvnitř ve
 Rybářská čtvrť s plážovou atmosférou. Úzké uličky, prádlo na šňůrách.
 - **Pláž** - 1 100 m písku
 - **Tapas "bombas"** - bramborové kuličky s pikantní omáčkou, místní specialita
-- **Lanovka na Montjuïc** (Teleféric del Port) - panoramatické výhledy
+- ~~**Lanovka na Montjuïc**~~ (Teleféric del Port) - **UZAVŘENA do 2. 3. 2026** (údržba)
 
 ### Sant Antoni - 5-10 min pěšky (soused!)
 Tradice + moderna. Oblíbená u mladých profesionálů.
@@ -252,6 +254,95 @@ Mezi 12:00-14:00 si místní dají vermut z barelu s olivami a tapas - "fer el v
 ### POZOR: 12. února = Den otevřených dveří!
 Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na první den!
 
+## MHD - Metro, autobusy, jízdenky
+
+### POZOR: Uzavírky na Montjuïc (3. 2. – 2. 3. 2026)
+- **Funicular z Paral·lel** — MIMO PROVOZ (práce na Carrer de Vila i Vilà)
+- **Telefèric de Montjuïc (lanovka)** — MIMO PROVOZ (údržba)
+- **Alternativa:** Bus 150 (Pl. Espanya → Castell de Montjuïc) nebo pěšky/eskalátory od Pl. Espanya
+- Info: TMB linka 900 701 149 (Po–Ne 7:00–21:00)
+
+### Appky ke stažení
+| Appka | K čemu | Cena |
+|-------|--------|------|
+| **TMB App** (povinná!) | Nákup jízdenek, real-time příjezdy metra/busů, plánování tras, upozornění na výluky | Zdarma |
+| **Google Maps** | Navigace, pěší trasy, kombinace chůze + MHD | Zdarma (stáhnout offline mapu Barcelony!) |
+| **Citymapper** (volitelně) | Porovnání všech možností dopravy na jednom místě | Zdarma |
+
+**Doporučení:** TMB App + Google Maps stačí. Citymapper je bonus.
+
+### Systém T-mobilitat (od 2024)
+Barcelona přešla na **bezkontaktní systém** — žádné papírové jízdenky. Postup:
+1. U automatu v metru koupit **anonymní kartičku T-mobilitat** (1 EUR/ks)
+2. Na kartičku nahrát vybranou jízdenku (T-casual apod.)
+3. Při průchodu turniketem **přiložit kartičku** k čtečce (NFC)
+
+Alternativně: stáhnout appku **Cartera T-mobilitat**, koupit jízdenku v mobilu, validovat telefonem (NFC). Nutná registrace + 1 EUR aktivace.
+
+### Typy jízdenek (Zóna 1, ceny od 15. 1. 2026)
+
+| Jízdenka | Cena | Jízd | Platnost | Sdílení pro 2 osoby |
+|----------|------|------|----------|---------------------|
+| **Jednorázová** | 2,90 EUR | 1 | Jedna cesta | Ne |
+| **T-casual** | 13,00 EUR | 10 | Dokud se nevyčerpá (~1 rok) | **NE — 1 osoba na kartu** |
+| **T-familiar** | 11,50 EUR | 8 | 30 dní od prvního použití | **ANO — sdílená!** |
+| **T-dia** | 12,00 EUR | Neomezené | 24h od prvního použití | Ne |
+| **Hola BCN 72h** | ~25,94 EUR | Neomezené | 72h od prvního použití | Ne |
+| **Airport Ticket** | 5,90 EUR | 1 | Jedna cesta (metro na letiště) | Ne |
+
+### Co je zahrnuté v jízdence
+- Metro (všechny linky), autobusy (TMB), tramvaje, FGC, Rodalies (Zóna 1)
+- **Funicular de Montjuïc** — součást metra (ale nyní uzavřen, viz výše!)
+- **Přestupy zdarma** do 75 minut (metro → bus → tram atd., počítá se jako 1 jízda)
+
+**NENÍ zahrnuté:**
+- Aerobus (samostatná jízdenka, viz níže)
+- Metro na letiště L9 Sud (vyžaduje Airport Ticket 5,90 EUR, nebo Hola BCN)
+- Telefèric del Port / Montjuïc Cable Car (turistická atrakce)
+- Turistický autobus (Hop-on Hop-off)
+
+### Aerobus (samostatný provozovatel)
+| Jízdenka | Cena |
+|----------|------|
+| **Jednosměrná** | 7,45 EUR |
+| **Zpáteční** | 12,85 EUR |
+- Linka L1: Letiště T1 ↔ Pl. Espanya ↔ Pl. Catalunya (~35 min)
+- Jízdenka online nebo přímo na zastávce
+- **Nelze platit běžnou jízdenkou MHD!**
+
+### Náš itinerář — kolik jízd potřebujeme
+
+| Den | Trasy metrem/busem | Jízd na osobu |
+|-----|-------------------|---------------|
+| Čt | Bus 150 na Montjuïc (nahoru) + pěšky dolů | ~1 |
+| Pá | Metro k Sagradě + metro do El Born + metro zpět | ~3 |
+| So | Metro L3 → Fontana (Gràcia) + metro zpět k Passeig de Gràcia + metro domů | ~2-3 |
+| Ne | Metro na Barcelonetu + metro zpět | ~1-2 |
+| **Celkem** | | **~7-9 jízd/os** |
+
+### Doporučení: 2× T-casual (nejlepší poměr cena/výkon)
+
+| Položka | Cena |
+|---------|------|
+| 2× anonymní kartička T-mobilitat | 2,00 EUR |
+| 2× T-casual (10 jízd) | 26,00 EUR |
+| 2× Aerobus zpáteční | 25,70 EUR |
+| **Celkem doprava za víkend** | **~53,70 EUR** |
+
+- Cena za jízdu: 1,30 EUR/os (oproti 2,90 EUR za jednorázovou)
+- 10 jízd na osobu = víc než dost pro náš program (zůstane pár jízd navíc)
+- Hola BCN 72h (2× ~52 EUR + Aerobus zvlášť) by vyšel dráž a nemá smysl pro náš pěší program
+
+### Kde koupit
+- **Aerobus:** Online na aerobusbarcelona.es nebo přímo na zastávce u terminálu
+- **T-casual:** U automatu v první stanici metra (Pl. Espanya po příjezdu Aerobusem). Automaty berou karty i hotovost, mají angličtinu
+- Případně v TMB appce (NFC telefon)
+
+### Bezkontaktní platba bankovní kartou (nouzově)
+- Na autobusech lze přiložit Visa/Mastercard/Amex přímo → 2,90 EUR/jízda, BEZ přestupů
+- Na některých stanicích metra také možné
+- Drahé a bez výhody přestupů — jen jako záloha
+
 ## Kola / E-bikes
 - **Bicing (městská) NELZE** - vyžaduje NIE (španělské ID rezidenta)
 - **Donkey Republic** - app, cca 12 EUR/den, e-bikes dostupné
@@ -276,8 +367,12 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 |-----|----------|-----|----------|
 | ~15:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min (zpožděný let) |
 | ~15:45 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci, osvěžit se |
-| 16:15 | **Funicular z Paral·lel** → Montjuïc | Stanice Paral·lel (2 min od hotelu!) | Součást metrojízdenky, výstup Miramar |
-| 16:30 | **Jardins Costa i Llobera** | Montjuïc (5 min od stanice Miramar) | 800 kaktusů, NY Times top 10 zahrad světa, ZDARMA. Výhledy na moře a přístav za slunce! |
+| 16:15 | **Na Montjuïc** — Bus 150 nebo pěšky | Viz varianty níže | ⚠️ Funicular UZAVŘEN do 2. 3. 2026! |
+| 16:45 | **Jardins Costa i Llobera** | Montjuïc (u Miramar) | 800 kaktusů, NY Times top 10 zahrad světa, ZDARMA. Výhledy na moře a přístav za slunce! |
+
+> **Jak na Montjuïc ve čtvrtek (funicular uzavřen!):**
+> - **Varianta A — Bus 150:** Z hotelu pěšky na Pl. Espanya (~10 min), bus 150 nahoru, výstup u zastávky Miramar/zahrady. Rychlejší.
+> - **Varianta B — Pěšky:** Z hotelu přes Carrer Poeta Cabanyes → Jardins de Laribal → Jardins Costa i Llobera (~25-30 min). Příjemná cesta přes Poble Sec a parky, uvidíte víc čtvrti.
 | ~17:45 | **Fundació Joan Miró** (volitelně) | Montjuïc (5 min od zahrad) | **ZDARMA** (Santa Eulàlia!). Po setmění (~18:10) — je to uvnitř. Do 19:00. Výstava "Miró and the United States" končí 22.2.! |
 | ~18:45 | Sestup z Montjuïc | Pěšky přes zahrady | |
 
@@ -295,7 +390,7 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 | 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00 |
 | 21:00 | Pintxos na **Carrer de Blai** | Poble Sec | 1-2 EUR/pintxo, crawl přes několik barů. Víc jídla, víc zábavy |
 
-**Geografie:** Letiště → hotel → funicularem na Montjuïc (zahrady za slunce, volitelně Miró po setmění) → sestup → večer v Poble Sec. Kompaktní trasa, vše v okolí hotelu.
+**Geografie:** Letiště → hotel → Bus 150 z Pl. Espanya na Montjuïc (zahrady za slunce, volitelně Miró po setmění) → sestup pěšky → večer v Poble Sec. Kompaktní trasa, vše v okolí hotelu. ⚠️ Funicular i lanovka uzavřeny do 2. 3. 2026!
 
 > **Tip:** Quimet & Quimet a pintxos na Blai jsou si podobné (malé kousky, tapas vibe). Q&Q je kultovní zážitek ale zavírá brzy (~20:00). Blai je uvolněnější crawl s víc jídla. Nedoporučujeme obojí v jeden večer.
 
