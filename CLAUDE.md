@@ -192,6 +192,7 @@ Bývalá průmyslová čtvrť → kreativní hub. Street art, galerie, hipstersk
 - **Crema Catalana** - katalánský crème brûlée s citronem a skořicí
 - **Xuixo** (čti: šušo) - smažený croissant plněný crema catalana, obalený v cukru
 - **Churros con chocolate** - churros s hustou horkou čokoládou
+- **Mel i mató** - čerstvý katalánský sýr (mató) s medem, jednoduchý elegantní dezert
 
 ### Kde jíst (blízko hotelu - Poble Sec)
 - **Carrer de Blai** - ulice plná pintxo barů, 1-2 EUR za pintxo, crawl od 20:00
@@ -207,6 +208,250 @@ Bývalá průmyslová čtvrť → kreativní hub. Street art, galerie, hipstersk
 
 ### Vermut rituál (nesmíte vynechat!)
 Mezi 12:00-14:00 si místní dají vermut z barelu s olivami a tapas - "fer el vermut". Zkuste v Poble Sec!
+
+---
+
+## Jídelní kultura Barcelony — kompletní průvodce
+
+### Denní rozpis jídel místních (5-6 jídel denně!)
+
+Barcelonská jídelní kultura se řídí zcela jiným rytmem než středoevropská. Místní jedí 4-6x denně, vše je posunuté o 2-3 hodiny oproti tomu, na co jsme zvyklí.
+
+| Jídlo | Místní čas | Co se jí | Kde |
+|-------|-----------|----------|-----|
+| **Esmorzar (snídaně)** | 7:00-8:00 | Café con leche + tostada/croissant. Velmi lehké, někdy jen káva | Doma nebo v baru u barového pultu |
+| **Segon esmorzar (2. snídaně)** | 10:30-11:00 | Bocadillo (bageta s jamónem/tortillou), káva, džus | Bar/kavárna poblíž práce |
+| **Aperitiu / Vermut** | 12:00-14:00 | Vermut z barelu s olivami, ančovičkami, chipsy | Vermuterie, bodegas |
+| **Dinar (oběd — HLAVNÍ JÍDLO)** | 13:30-15:30 | Menú del día: 2-3 chody + drink + dezert/káva. Největší jídlo dne! | Restaurace |
+| **Berenar (merienda)** | 17:00-18:30 | Bocadillo, churros, pečivo, ovoce, jogurt | Kavárna, granja, doma |
+| **Sopar (večeře)** | 21:00-23:00 | Lehčí než oběd — tapas, salát, ryba, omeleta | Restaurace, tapas bary |
+
+**POZOR pro turisty:**
+- V 19:00 v restauraci budete jíst sami s ostatními turisty. Místní přicházejí po 21:00.
+- V 12:00 bude většina restaurací zavřená na oběd — kuchyně se otevírají kolem 13:00-13:30.
+- Nejlepší zážitek = jíst jako místní. Ale pokud máte hlad dřív, turistické restaurace se přizpůsobily a otvírají dříve.
+
+### Otevírací doby restaurací a barů
+
+| Typ podniku | Oběd | Odpolední pauza | Večeře | Zavírací den |
+|-------------|------|-----------------|--------|-------------|
+| **Restaurace (běžné)** | 13:00-16:00 | 16:00-20:00 (kuchyně zavřená) | 20:00-23:30 | Neděle večer + pondělí |
+| **Tapas bary** | 12:00-16:00 | Některé zavřou 16-19 | 19:00-0:00 | Různé, často neděle |
+| **Pintxos bary (Blai)** | Některé od 12:00 | Většina otevřených | 19:00-0:00+ | Různé |
+| **Kavárny/Granjas** | 8:00-14:00 | Otevřeno celý den | Do 20:00-21:00 | Různé |
+| **Bodegas** | 12:00-15:00 | Některé zavřou | 19:00-23:00 | Neděle, pondělí |
+| **Trhy (Boqueria, Sant Antoni)** | 8:00-20:30 | Otevřeno celý den | - | Neděle |
+
+**Klíčové body:**
+- **Odpolední pauza (16:00-20:00):** Většina restaurací má zavřenou kuchyni. "Siesta" jako taková už v Barceloně neexistuje, ale restaurace prostě nevaří mezi obědem a večeří. Některé moderní podniky se přizpůsobily turistům a mají otevřeno celý den ("cocina continua").
+- **Neděle a pondělí:** Tradiční zavírací dny. Kvalitní restaurace bývají v neděli zavřené (nebo jen na oběd otevřené). Pondělí = nejhorší den pro restaurace. Casualní podniky, tapas bary a turistické restaurace ale otevřeno mají. Nehrozí, že byste nenašli kde jíst.
+- **Únor = low season:** Některé menší podniky můžou mít omezenou otevírací dobu nebo extra zavírací den.
+- **Účet (la cuenta):** Číšník NIKDY nepřinese účet sám od sebe — bylo by to neslušné! Vždy si o něj musíte požádat: "La cuenta, por favor."
+
+### Svačiny a street food (co jíst mezi jídly)
+
+#### Bocadillo — král svačin
+- Bageta plněná jamónem, tortillou, chorízem, sýrem nebo zeleninou
+- Dostupný v každém baru za 3-6 EUR
+- Oblíbený jako 2. snídaně (10:30) i jako merienda (17:00)
+- **Bocadillo de jamón** (šunková bageta) = nejklasičtější
+
+#### Merienda (berenar) — odpolední svačina (17:00-18:30)
+Původně jídlo pro děti po škole, ale stále populárnější i u dospělých:
+- **Churros con chocolate** — smažené těstové tyčinky namáčené v husté horké čokoládě
+- **Bocadillo** — plněná bageta (jamón, tortilla, chorizo)
+- **Pečivo a sladkosti** — croissanty, ensaimadas, xuixos
+- **Ovoce, jogurt, sýr** — lehčí varianta
+- **Tostada** — opečený chléb s olivovým olejem a rajčetem (pa amb tomàquet)
+- Slovo "merienda" pochází z latinského "merere" (zasloužit si) — římští vojáci dostávali odpolední jídlo za svou práci
+
+#### Kde svačit
+- **Granja M. Viader** (Xuclà 4-6) — churros a horká čokoláda od 1870
+- **La Colmena** (Pl. de l'Àngel 12) — nejstarší cukrárna v Barceloně (1849)
+- **Mercat de Sant Antoni** — bocadillos a čerstvé ovoce
+- **Jakýkoli bar** — bocadillo de jamón + caña (malé pivo)
+
+### Vermut kultura — podrobně
+
+#### Co je "fer el vermut"?
+Doslova "dělat vermut" — ale ve skutečnosti je to sociální rituál, výmluva k setkání s přáteli na drink a tapas před obědem. Je to katalánský ekvivalent brunche, jen starší o 100+ let.
+
+#### Historie
+- Tradice sahá do 19. století, kdy dělníci a rybáři v přístavu popíjeli vermut z barelu v jednoduchých bodegách
+- 1902: Flaminio Mezzalama (Martini & Rossi) otevřel Café Torino na Passeig de Gràcia — první vermutový bar ve Španělsku, designovaný mj. Gaudím
+- Později upadl jako "drink pro staré muže", ale od ~2010 prožívá obrovský comeback
+- Dnes je vermut módní záležitost, ~2 EUR za skleničku — dostupná sociální aktivita
+
+#### Kdy a jak
+- **Čas:** Víkendy 12:00-14:00 (hlavně neděle!), ale i ve všední dny
+- **Servírování:** Vermut z barelu přes led, s trochou sifonu (sodovky), plátek pomeranče nebo citronu
+- **Co k tomu:** Olivy plněné ančovičkami na párátku, berberechos (kokoši v konzervě), mušle v escabeche, chipsy, sýr, uzeniny, mojama (sušený tuňák) s mandlemi
+- **Aperitivo omáčka:** Na každém stole — paprika + ocet, na chipsy a mořské plody
+- **Cena:** ~2 EUR za skleničku, tapas 1-4 EUR
+
+#### Kde v Poble Sec
+- **Bodega La Tieta** — vermut z barelu, domácí tapas
+- **Quimet & Quimet** (Poeta Cabanyes 25) — kultovní, Po-Pá do ~20:00
+- **Gran Bodega Saltó** (Blesa 36) — stolétá bodega, neděle od 13:30 "hudební vermut"
+
+#### Proč to vyzkoušet
+Vermut není jen drink — je to okno do katalánské duše. Sociální život se v Barceloně odehrává v barech, ne doma. Za ~2 EUR za skleničku je to nejlevnější a nejautentičtější způsob, jak zažít místní kulturu.
+
+### Tapas kultura — jak to funguje
+
+#### Slovník velikostí
+| Termín | Co to je | Porce | Cena (orientačně) |
+|--------|---------|-------|-------------------|
+| **Tapa** | Malý talířek z menu | Pro 1-2 osoby | 4-8 EUR |
+| **Media ración** | Poloviční porce | Pro 1 osobu | 6-10 EUR |
+| **Ración** | Plná porce k sdílení | Pro 2-4 osoby | 10-18 EUR |
+| **Pintxo/Pincho** | Jednohubka na párátku (baskický původ) | 1 kousek | 1-3 EUR |
+| **Montadito** | Mini sendvič na plátku chleba (andaluský původ) | 1 kousek | 2-4 EUR |
+
+#### Jak objednávat jako místní
+1. **Neobjednávat všechno najednou.** Začněte 2-3 tapas/raciones, pak doobjednávejte. Jídlo zůstane teplé a neobjednáte víc, než sníte.
+2. **Mixovat textury:** Jeden smažený (patatas bravas), jeden dušený (albóndigas), jeden studený (ensaladilla rusa).
+3. **Sdílet!** Raciones jsou na sdílení — objednávejte pro stůl, ne pro sebe.
+4. **Pít lehké:** K tapas caña (malé pivo), vermut, bílé víno nebo cava. Těžké červené víno přetluče chuťové pohárky.
+5. **Tapas crawl:** Místní nejedí tapas na jednom místě. "Ir de tapas" = bar hopping, 2-3 tapas + drink v jednom baru, pak se posunout dál.
+
+#### Pintxos na Carrer de Blai — jak to funguje
+- **Kde:** Carrer de Blai, pěší zóna v Poble Sec (~10 min od hotelu), cca 800 metrů barů
+- **Systém:** Pintxos jsou vystavené na baru. Vezmete si, co chcete, na talíř. Párátka si nechte!
+- **Placení:** Na konci návštěvy číšník spočítá párátka. Různé barvy/tvary = různé ceny.
+  - Obyčejné párátko = klasický pintxo (~1 EUR)
+  - Párátko s červeným kolečkem/jiný tvar = dražší (~1,50-2 EUR)
+- **Ceny:** 1-3 EUR za pintxo, caña (pivo) ~1,20-2 EUR
+- **Kdy přijít:** Od 20:00, nejlepší čt/pá/so. Přijít o trochu dříve = sednete si.
+- **Strategie:** 3-4 pintxos + drink v jednom baru → přesun do dalšího → opakovat
+- **Top bary:** Pincho J (nejpopulárnější), Koska Taverna (nejlepší tortilla), La Tasqueta de Blai (nejkreativnější), Blai 9 (mini palačinky místo chleba)
+
+#### Tapas etiketa
+- **Pa amb tomàquet (pan tumaca)** přijde automaticky jako první — chleba s rajčetem, olejem a solí. Základ katalánské kuchyně.
+- **Neplaťte při objednávání.** Platí se až na konci. Placení hned u baru = turistický faux pas.
+- **U pultu nebo u stolu?** U pultu (barra) je často levnější (o 10-15 %). Stůl = příplatek za obsluhu (servicio).
+- **Chleba:** V Katalánsku se chleba podává vždy s rajčetem, česnekem, olejem a solí — nikdy s máslem!
+
+### Káva — typy a kdy je pít
+
+#### Typy kávy v Barceloně
+| Název | Co to je | Kdy se pije |
+|-------|---------|------------|
+| **Café solo** | Espresso, černá káva | Kdykoli, po jídle |
+| **Café doble** | Dvojité espresso | Ráno, když potřebujete nakopnout |
+| **Café con leche** | Káva s mlékem (1:1) | POUZE RÁNO (snídaně). Nejpopulárnější ranní káva |
+| **Cortado / Tallat** | Espresso "říznuté" trochou teplého mléka | Po obědě, odpoledne. Přes den nejběžnější |
+| **Carajillo** | Espresso s brandy/rumem/whiskey | Po jídle, večer. Legendární barcelonský drink |
+| **Trifàsic** | Carajillo + trocha mléka | Katalánská specialita |
+| **Café bombón** | Espresso + kondenzované mléko (1:1) | Sladká odpolední svačina |
+| **Café amb gel** | Horké espresso + sklenice s ledem (mixujete sami) | Léto (v únoru spíš ne) |
+
+#### Pravidla kávové kultury
+- **Café con leche = RANNÍ KÁVA.** Žádný Španěl si nedá café con leche po obědě. Po jídle jen solo nebo cortado.
+- **Káva se nepije za chůze.** Sednout si (nebo aspoň stát u pultu), dát si kávu, popovídat, jít dál. Papírové kelímky "to go" jsou vzácné.
+- **Cortado/tallat** je barcelonská klasika přes celý den.
+- **Carajillo** — legenda říká, že přístavní dělníci říkali "una copa y un cafè, que ara guillo" (panáka a kafe, honem, já jdu!) → "carajillo". Espresso + alkohol.
+- **Káva po jídle** je standardní součást oběda i večeře. Často zahrnuta v menú del día.
+
+### Propitné (tipping) — co se očekává
+
+**Základní pravidlo: Propitné v Barceloně NENÍ povinné a není neslušné ho nedát.**
+
+Španělští zaměstnanci dostávají řádnou mzdu ze zákona. Propitné je gesto uznání, ne nutnost.
+
+| Situace | Co dělat | Kolik |
+|---------|---------|-------|
+| **Kavárna / bar** | Nechat drobné, zaokrouhlit | 0-0,50 EUR |
+| **Tapas bar / pintxos** | Pár mincí za kolo | 0-1 EUR |
+| **Restaurace (casual, 25-40 EUR)** | Nechat něco, pokud jste spokojeni | 2-4 EUR |
+| **Restaurace (mid-range, 40-80 EUR)** | 5-10 % při dobrém servisu | 3-8 EUR |
+| **Fine dining (80+ EUR)** | Až 10 % za výjimečný servis | Max 10 % |
+| **Taxi** | Zaokrouhlit na celé euro | 0-1 EUR |
+| **Hotel (nosič kufrů)** | Za kufr | 1-2 EUR/kufr |
+| **Tour guide (skupinový)** | Na osobu | 5-10 EUR |
+
+**Důležité:**
+- Místní nejčastěji jen zaokrouhlí účet nebo nechají drobné na stole.
+- **Propitné v hotovosti** = jistota, že jde obsluze. Při placení kartou propitné často nejde personálu.
+- V turistických oblastech (La Rambla, Sagrada) je obsluha na propitné zvyklá víc. V lokálních čtvrtích (Poble Sec, Gràcia) stačí pár mincí.
+- Servisní poplatek (servicio) bývá zahrnut v účtu u větších skupin (~10 %). Zkontrolujte účet.
+
+### Menú del día — nejlepší deal v Barceloně
+
+#### Co to je
+Denní obědové menu za fixní cenu. Dostupné v pracovní dny (Po-Pá), většinou 13:00-16:00.
+
+#### Co zahrnuje (typicky 10-15 EUR)
+1. **Primer plato** (1. chod) — salát, polévka, těstoviny, zelenina, paella
+2. **Segundo plato** (2. chod) — maso, ryba, tradiční jídlo
+3. **Postre o café** (dezert NEBO káva) — vybíráte jedno
+4. **Bebida** (nápoj) — voda, víno (!) nebo pivo
+5. **Pan** (chléb) — vždy součástí
+
+#### Pravidla
+- **Víno je součástí oběda!** Místní si k menú del día dají skleničku vína — je to normální, ne opilství.
+- **Voda:** "Agua con gas" (perlivá) nebo "agua sin gas" (neperlivá). Často přijde v lahvi.
+- **Ptejte se:** "¿Tienen menú del día?" (Máte denní menu?). Často není viditelně na jídelním lístku.
+- **Víkendy:** Menú del día je hlavně věc pracovních dnů. O víkendu je vzácnější a dražší.
+- **Cena:** 10-15 EUR v lokálních podnicích, 15-20 EUR v turistických oblastech. Za tuto cenu je to naprosto nejlepší poměr cena/výkon.
+
+### Sobremesa — umění posedět po jídle
+
+- **Sobremesa** = čas strávený u stolu PO jídle. Kafe, digestiv, povídání.
+- Víkendy: oběd se může protáhnout až do merendy (15:00-17:00), pokud se sobremesa vede správně.
+- Číšník NIKDY nepřijde s účtem. Přinést účet bez vyžádání = neslušnost. Klidně seďte hodinu po jídle.
+- **Digestiv po jídle:** Carajillo (espresso + brandy), orujo (pálenka z hroznů), licor de hierbas (bylinný likér)
+- Sobremesa není o jídle — je o vztazích. Priorita = konverzace, ne hodinky.
+
+### Únorové speciality — sezónní jídla
+
+Únor je jeden z nejlepších měsíců pro katalánskou kuchyni. Co je v sezóně:
+
+#### Calçots — HVĚZDA ÚNORA!
+- **Co to je:** Speciální katalánská jarní cibulka, tlustší a delší než běžná
+- **Sezóna:** Prosinec-duben, vrchol = únor/březen
+- **Calçotada:** Zimní katalánské BBQ. Calçots se grilují na otevřeném ohni, zuhelnatělá vnější vrstva se oloupne holýma rukama, vnitřek se namáčí v **romesco omáčce** (pečené papriky, rajčata, česnek, ořechy, olivový olej)
+- **Jak jíst:** VŽDY rukama! Nikdy příborem. Budou vám mazat prsty — to je součást zážitku. Někde dostanou bryndáček a rukavice.
+- **Kde v Barceloně:** Mnoho restaurací je má v sezónním menu. Nejautentičtější zážitek = mimo město (Valls = hlavní město calçots), ale i v Barceloně najdete. Hledejte "calçotada" na menu.
+- **Původ:** Z města Valls (1h od Barcelony)
+
+#### Escudella i carn d'olla — zimní guláš
+- **Co to je:** Nejstarší katalánský recept, ze středověku. Vývar s masem, kuřetem, botifarrou, řepou, cizrnou, zelím, těstovinami, bramborami.
+- **Jak se podává:** Dva chody — nejdřív vývar, pak maso a zelenina zvlášť.
+- **Kde:** Estevet (od 1890, St-Ne v zimě), Can Culleretes (nejstarší restaurace v Barceloně)
+- **Sezóna:** Říjen-květen
+
+#### Další zimní jídla
+- **Fricandó** — plátky hovězího v omáčce s houbami (v únoru divoké houby!)
+- **Botifarra amb mongetes** — grilovaná katalánská klobása s bílými fazolemi (zimní klasika)
+- **Canelons** — katalánské cannelloni, tradičně po Vánocích, ale dostupné celou zimu
+- **Mel i mató** — čerstvý sýr s medem, jednoduchý zimní dezert
+
+#### Únorové ovoce a zelenina na trzích
+- Pomeranče a mandarinky (vrchol sezóny!)
+- Artyčoky
+- Kardy (cardos)
+- Špenát, mangold
+- Hrušky, jablka
+
+### Praktické rady pro náš víkend
+
+#### Čtvrtek (přílet ~15:30)
+- Quimet & Quimet zavírá ~20:00 a je otevřený jen Po-Pá → čtvrtek je POSLEDNÍ ŠANCE v našem víkendu!
+- Pintxos na Blai od 20:00 = alternativa po Quimet
+
+#### Pátek (déšť)
+- **Menú del día:** Skvělá volba na oběd po Sagradě (Eixample má spoustu lokálních restaurací). Hledejte "Menú del día 12-15 EUR" — výživný, levný, s vínem.
+- Granja M. Viader na snídani = horká čokoláda v dešti, klasika od 1870
+
+#### Sobota (Valentýn)
+- **Vermut v Gràcii** (11:00) — ideální, nedělní vibe v sobotu. Většina vermutérií otevřená.
+- **Calçots?** Pokud restaurace v Gràcii má calçotadu na menu → vyzkoušet! Sezóna je v plném proudu.
+- **Arume Restaurant** (19:00) — galicijská kuchyně = pulpo (chobotnice), gambas, empanadas
+
+#### Neděle (odlet)
+- **Snídaně v hotelu** stačí — nemáme čas na restauraci
+- Mercat de Sant Antoni má v neděli bleší trh (knihy, staré věci), ale jídlo bude omezené (neděle = zavírací den trhů pro jídlo)
 
 ## Večerní zábava
 
