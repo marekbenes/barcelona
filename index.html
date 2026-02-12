@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barcelona 12.-15. února 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+  :root {
+    --warm: #E8724A;
+    --gold: #D4A843;
+    --dark: #1a1a2e;
+    --soft: #f5f0eb;
+    --card-bg: #ffffff;
+    --text: #2d2d2d;
+    --text-light: #666;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--soft);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 20px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_%28cropped%29.jpg/1280px-Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_%28cropped%29.jpg') center/cover;
+    opacity: 0.2;
+  }
+  .hero > * { position: relative; z-index: 1; }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+  }
+  .hero .subtitle {
+    font-size: 1.2em;
+    opacity: 0.85;
+    font-weight: 300;
+    margin-bottom: 24px;
+  }
+  .hero .dates {
+    display: inline-flex;
+    gap: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 0.95em;
+  }
+  .hero .dates span { display: flex; align-items: center; gap: 6px; }
+
+  /* NAV */
+  nav {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    padding: 0 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  nav a {
+    display: inline-block;
+    padding: 16px 18px;
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+  }
+  nav a:hover, nav a.active {
+    color: var(--warm);
+    border-bottom-color: var(--warm);
+  }
+
+  /* SECTIONS */
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px 40px;
+  }
+  section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    margin-bottom: 8px;
+    color: var(--dark);
+  }
+  section .section-desc {
+    color: var(--text-light);
+    font-size: 1.05em;
+    margin-bottom: 36px;
+    max-width: 700px;
+  }
+
+  /* CARDS GRID */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 28px;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  }
+
+  .card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #ddd, #eee);
+    display: block;
+  }
+
+  .card-body {
+    padding: 22px;
+  }
+  .card-body h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35em;
+    margin-bottom: 4px;
+  }
+  .card-body .card-subtitle {
+    color: var(--warm);
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  .card-body p {
+    color: var(--text-light);
+    font-size: 0.93em;
+    line-height: 1.65;
+  }
+
+  /* BADGES */
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78em;
+    font-weight: 500;
+  }
+  .badge-price { background: #e8f5e9; color: #2e7d32; }
+  .badge-time { background: #e3f2fd; color: #1565c0; }
+  .badge-queue { background: #fff3e0; color: #e65100; }
+  .badge-tip { background: #fce4ec; color: #c62828; }
+  .badge-free { background: #e0f2f1; color: #00695c; }
+  .badge-must { background: #fff8e1; color: #f57f17; }
+
+  /* FOOD SECTION - smaller cards */
+  .food-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 22px;
+  }
+  .food-card {
+    background: var(--card-bg);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+  }
+  .food-card .card-img { height: 180px; }
+  .food-card .card-body { padding: 18px; }
+  .food-card h3 { font-size: 1.15em; margin-bottom: 6px; }
+  .food-card p { font-size: 0.88em; }
+
+  /* NEIGHBORHOOD PILLS */
+  .hood-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+  }
+  .hood-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--warm);
+    transition: transform 0.2s;
+  }
+  .hood-card:hover { transform: translateY(-2px); }
+  .hood-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    margin-bottom: 4px;
+  }
+  .hood-card .hood-dist {
+    color: var(--warm);
+    font-size: 0.82em;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .hood-card p { font-size: 0.9em; color: var(--text-light); }
+  .hood-card ul {
+    margin-top: 10px;
+    padding-left: 18px;
+    font-size: 0.88em;
+    color: var(--text-light);
+  }
+  .hood-card ul li { margin-bottom: 3px; }
+  .hood-card.home {
+    border-left-color: var(--gold);
+    background: linear-gradient(135deg, #fffdf5 0%, #fff9eb 100%);
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-light);
+    font-size: 0.85em;
+  }
+
+  /* SEPARATOR */
+  .sep {
+    width: 60px;
+    height: 3px;
+    background: var(--warm);
+    border-radius: 2px;
+    margin: 8px 0 0;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2.2em; }
+    .cards, .food-cards, .hood-grid { grid-template-columns: 1fr; }
+    .hero .dates { flex-direction: column; gap: 6px; }
+    section { padding: 40px 16px 30px; }
+  }
+
+  /* SCHEDULE / HARMONOGRAM */
+  .schedule-days {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .day-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+
+  .day-header {
+    padding: 28px 32px 20px;
+    color: white;
+    position: relative;
+  }
+  .day-header.sunny {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  }
+  .day-header.rainy {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  }
+  .day-header.valentine {
+    background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  }
+  .day-header.departure {
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  }
+  .day-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    margin-bottom: 4px;
+  }
+  .day-header .day-meta {
+    opacity: 0.9;
+    font-size: 0.95em;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .day-header .day-theme {
+    font-size: 0.85em;
+    opacity: 0.8;
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  .timeline {
+    padding: 24px 32px 32px;
+    position: relative;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 52px;
+    top: 24px;
+    bottom: 32px;
+    width: 2px;
+    background: #e5e7eb;
+  }
+
+  .tl-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 6px;
+    position: relative;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  .tl-item:last-child { margin-bottom: 0; }
+
+  .tl-time {
+    min-width: 50px;
+    font-size: 0.82em;
+    font-weight: 600;
+    color: var(--text-light);
+    text-align: right;
+    padding-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .tl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d1d5db;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #d1d5db;
+    flex-shrink: 0;
+    margin-top: 5px;
+    z-index: 1;
+  }
+  .tl-dot.highlight {
+    background: var(--warm);
+    box-shadow: 0 0 0 2px var(--warm);
+  }
+  .tl-dot.meal {
+    background: #16a34a;
+    box-shadow: 0 0 0 2px #16a34a;
+  }
+  .tl-dot.culture {
+    background: #8b5cf6;
+    box-shadow: 0 0 0 2px #8b5cf6;
+  }
+  .tl-dot.free {
+    background: #06b6d4;
+    box-shadow: 0 0 0 2px #06b6d4;
+  }
+  .tl-dot.night {
+    background: #e11d48;
+    box-shadow: 0 0 0 2px #e11d48;
+  }
+
+  .tl-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .tl-content strong {
+    font-size: 0.95em;
+    color: var(--text);
+  }
+  .tl-content .tl-desc {
+    font-size: 0.84em;
+    color: var(--text-light);
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+  .tl-content .tl-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.72em;
+    font-weight: 600;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .tl-badge-free { background: #dcfce7; color: #15803d; }
+  .tl-badge-ticket { background: #fef3c7; color: #b45309; }
+  .tl-badge-reserve { background: #fce7f3; color: #be185d; }
+
+  .day-footer {
+    padding: 16px 32px 20px;
+    background: #f9fafb;
+    border-top: 1px solid #f0f0f0;
+    font-size: 0.84em;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+  .day-footer strong { color: var(--text); }
+
+  .buy-ahead {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-top: 40px;
+    box-shadow: var(--shadow);
+  }
+  .buy-ahead h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    margin-bottom: 14px;
+    color: #92400e;
+  }
+  .buy-ahead ol {
+    padding-left: 22px;
+    color: #78350f;
+    font-size: 0.93em;
+    line-height: 1.8;
+  }
+  .buy-ahead ol li strong { color: #92400e; }
+
+  @media (max-width: 768px) {
+    .day-header { padding: 20px; }
+    .day-header h3 { font-size: 1.3em; }
+    .timeline { padding: 20px 16px 24px; }
+    .timeline::before { left: 36px; }
+    .tl-time { min-width: 38px; font-size: 0.76em; }
+    .day-footer { padding: 14px 20px; }
+    .buy-ahead { padding: 20px; }
+  }
+
+  html { scroll-behavior: smooth; }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Barcelona</h1>
+  <p class="subtitle">Romantický prodloužený víkend pro dva</p>
+  <div class="dates">
+    <span>12. - 15. února 2026</span>
+    <span>|</span>
+    <span>Arco Hotel, Paral&middot;lel</span>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="#harmonogram">Harmonogram</a>
+  <a href="#pamatky">Památky</a>
+  <a href="#ctvrti">Čtvrti</a>
+  <a href="#jidlo">Jídlo</a>
+  <a href="#dezerty">Dezerty</a>
+  <a href="#zabava">Večerní zábava</a>
+  <a href="#umeni">Umění &amp; muzea</a>
+  <a href="#okoli">U hotelu</a>
+</nav>
+
+<!-- ======================== HARMONOGRAM ======================== -->
+<section id="harmonogram">
+  <h2>Harmonogram po dnech</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Konkrétní plán na celý prodloužený víkend. Optimalizovaný na počasí, otevírací doby a geografii &mdash; minimum zbytečného přesunu.</p>
+
+  <div class="schedule-days">
+
+    <!-- ========== ČTVRTEK ========== -->
+    <div class="day-card">
+      <div class="day-header sunny">
+        <h3>Čtvrtek 12. 2.</h3>
+        <div class="day-meta">
+          <span>16°C &middot; Slunečno</span>
+          <span>Svátek Santa Eulàlia</span>
+        </div>
+        <div class="day-theme">Přílet &rarr; Barceloneta &rarr; Lanovkou na Montjuïc &rarr; Quimet &amp; Quimet &rarr; Magická fontána</div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-time">13:20</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Přílet, Aerobus L1 &rarr; Pl. Espanya</strong>
+            <div class="tl-desc">6.75 EUR, ~35 min. Zastávka přímo u hotelu.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">~14:00</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Check-in Arco Hotel</strong>
+            <div class="tl-desc">Odložit věci, osvěžit se.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">14:30</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Na Barcelonetu</strong>
+            <div class="tl-desc">Metro/pěšky, ~20 min z hotelu.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">15:00</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Procházka po pláži Barceloneta</strong>
+            <div class="tl-desc">Pláž, promenáda, rybářská čtvrť. 16°C a slunečno &mdash; ideální na procházku u moře.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">16:00</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Teleféric del Port &rarr; Montjuïc</strong>
+            <div class="tl-desc">~13 EUR/os, ~10 min. Panoramatické výhledy na přístav, město a moře. Stanice Miramar.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">16:30</div>
+          <div class="tl-dot culture"></div>
+          <div class="tl-content">
+            <strong>Fundació Joan Miró</strong>
+            <span class="tl-badge tl-badge-free">ZDARMA (Santa Eulàlia)</span>
+            <div class="tl-desc">Výstava &bdquo;Miró and the United States&ldquo; &mdash; 130+ děl, končí 22. 2.! 15 min od Miramar. Otevřeno do 19:00.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">18:30</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Jardins Costa i Llobera</strong>
+            <span class="tl-badge tl-badge-free">Zdarma</span>
+            <div class="tl-desc">800 druhů kaktusů, NY Times &bdquo;top 10 zahrad světa&ldquo;. Hned vedle Miró.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">19:00</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Sestup z Montjuïc</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">19:15</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Quimet &amp; Quimet</strong>
+            <span class="tl-badge tl-badge-ticket">Jen Po-Pá!</span>
+            <div class="tl-desc">Legendární bodega, montaditos &amp; konzervy, 5. generace. Poeta Cabanyes 25. Večerní hodiny od ~19:00.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">20:00</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Magická fontána</strong>
+            <span class="tl-badge tl-badge-free">Zdarma</span>
+            <div class="tl-desc">Světelná show, 15 min od hotelu. Show do 21:00.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">21:00</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Pintxos na Carrer de Blai</strong>
+            <div class="tl-desc">1-2 EUR/pintxo, crawl přes několik barů. 10 min od hotelu.</div>
+          </div>
+        </div>
+      </div>
+      <div class="day-footer">
+        <strong>Trasa:</strong> Letiště &rarr; hotel (check-in) &rarr; Barceloneta (pláž) &rarr; lanovkou na Montjuïc (Miró, zahrady) &rarr; sestup &rarr; Quimet &amp; Quimet &rarr; fontána &rarr; Carrer de Blai. Krásný okruh přes moře i kopec.
+      </div>
+    </div>
+
+    <!-- ========== PÁTEK ========== -->
+    <div class="day-card">
+      <div class="day-header rainy">
+        <h3>Pátek 13. 2.</h3>
+        <div class="day-meta">
+          <span>12°C &middot; Déšť</span>
+          <span>Indoor den</span>
+        </div>
+        <div class="day-theme">Churros &rarr; Dalí &rarr; Sagrada Familia &rarr; Picasso &rarr; Gòtic &rarr; Flamenco</div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-time">9:00</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Churros v Granja M. Viader</strong>
+            <div class="tl-desc">Od 1870! Horká čokoláda + churros. Xuclà 4-6, Raval.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">10:00</div>
+          <div class="tl-dot culture"></div>
+          <div class="tl-content">
+            <strong>Galería Mayoral &bdquo;Transnarcis&ldquo;</strong>
+            <span class="tl-badge tl-badge-free">Zdarma</span>
+            <div class="tl-desc">Dalí + surrealisté. Carrer de València, Eixample. Cestou k Sagradě.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">11:30</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Sagrada Familia</strong>
+            <span class="tl-badge tl-badge-ticket">Lístky koupené!</span>
+            <div class="tl-desc">1.5-2h uvnitř. Dopolední světlo rozsvítí vitráže.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">13:30</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Hospital de Sant Pau (zvenku)</strong>
+            <div class="tl-desc">10 min pěšky od Sagrady. Secesní fasády, foto.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">14:00</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Oběd v okolí Sagrady</strong>
+            <div class="tl-desc">Eixample.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">15:15</div>
+          <div class="tl-dot culture"></div>
+          <div class="tl-content">
+            <strong>Museu Picasso</strong>
+            <div class="tl-desc">12 EUR. Raná díla v 5 středověkých palácích. Metro L5/L4 &rarr; Jaume I, El Born.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">16:45</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Palau de la Música Catalana (zvenku)</strong>
+            <div class="tl-desc">Secesní fasáda, pár min od Picassa.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">17:00</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Gotická čtvrť procházka</strong>
+            <div class="tl-desc">Katedrála, Plaça Reial, Temple d'August (římské sloupy, 2000+ let).</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">18:30</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Odpočinek v hotelu</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">20:15</div>
+          <div class="tl-dot night"></div>
+          <div class="tl-content">
+            <strong>Flamenco: El Duende</strong>
+            <span class="tl-badge tl-badge-ticket">Lístky!</span>
+            <div class="tl-desc">25-35 EUR. Intimní, autentické flamenco. La Rambla 33, ~15 min od hotelu.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">21:30</div>
+          <div class="tl-dot night"></div>
+          <div class="tl-content">
+            <strong>Gran Bodega Saltó</strong>
+            <div class="tl-desc">Stolétá vinotéka plná kuriozit. Blesa 36, 4 min od hotelu.</div>
+          </div>
+        </div>
+      </div>
+      <div class="day-footer">
+        <strong>Trasa:</strong> Raval (Viader) &rarr; Eixample (Mayoral &rarr; Sagrada &rarr; Sant Pau) &rarr; El Born (Picasso, Palau Música) &rarr; Gòtic &rarr; hotel &rarr; La Rambla (El Duende) &rarr; Poble Sec (Bodega Saltó).
+      </div>
+    </div>
+
+    <!-- ========== SOBOTA (Valentýn) ========== -->
+    <div class="day-card">
+      <div class="day-header valentine">
+        <h3>Sobota 14. 2. &mdash; Valentýn</h3>
+        <div class="day-meta">
+          <span>14°C &middot; Slunečno</span>
+          <span>Den plný romantiky</span>
+        </div>
+        <div class="day-theme">Gràcia &rarr; Park Güell &rarr; Passeig de Gràcia &rarr; Casa Batlló &rarr; Boqueria &rarr; Valentýnská večeře</div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-time">9:00</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Snídaně v hotelu</strong>
+            <div class="tl-desc">Bufet.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">9:30</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Metro L3 &rarr; Fontana</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">10:00</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Gràcia procházka</strong>
+            <div class="tl-desc">Plaça del Sol, bohémské uličky, kavárna.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">11:00</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Vermut rituál</strong>
+            <div class="tl-desc">&bdquo;Fer el vermut&ldquo; &mdash; vermut z barelu s olivami a tapas. Místní posvátný rituál 12:00-14:00.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">12:00</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Park Güell</strong>
+            <span class="tl-badge tl-badge-ticket">Lístky!</span>
+            <div class="tl-desc">Mozaikový drak, lavička s výhledem. 18 EUR.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">13:30</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Oběd v Gràcii</strong>
+            <div class="tl-desc">Lokální restaurace.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">14:45</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Casa Milà (La Pedrera) &mdash; zvenku</strong>
+            <div class="tl-desc">Foto zvlněné fasády. Passeig de Gràcia 92.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">15:15</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Casa Batlló &mdash; dovnitř</strong>
+            <span class="tl-badge tl-badge-ticket">Lístky!</span>
+            <div class="tl-desc">General Visit 29 EUR. Podmořský svět! ~1h15.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">16:15</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>La Boqueria</strong>
+            <div class="tl-desc">Slavný trh na La Rambla. Ochutnat frutas, jamón, mořské plody.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">17:00</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Procházka přes Gòtic / El Born</strong>
+            <div class="tl-desc">Santa Maria del Mar, romantická atmosféra.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">18:15</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Zpět do hotelu, příprava na večeři</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">19:00</div>
+          <div class="tl-dot night"></div>
+          <div class="tl-content">
+            <strong>Valentýnská večeře: Arume Restaurant</strong>
+            <span class="tl-badge tl-badge-ticket">Rezervováno!</span>
+            <div class="tl-desc">Galicijská kuchyně. Carrer de Botella 11 (Raval), ~15 min od hotelu.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">~21:00</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Romantická procházka / drink</strong>
+            <div class="tl-desc">Valentýnský večer ve dvou.</div>
+          </div>
+        </div>
+      </div>
+      <div class="day-footer">
+        <strong>Trasa:</strong> Hotel &rarr; Gràcia (procházka, vermut) &rarr; Park Güell &rarr; oběd &rarr; Passeig de Gràcia (Casa Milà, Casa Batlló) &rarr; Boqueria &rarr; Gòtic/Born &rarr; hotel &rarr; Arume. Plynulý oblouk sever &rarr; jih.
+      </div>
+    </div>
+
+    <!-- ========== NEDĚLE ========== -->
+    <div class="day-card">
+      <div class="day-header departure">
+        <h3>Neděle 15. 2.</h3>
+        <div class="day-meta">
+          <span>13°C &middot; Slunečno</span>
+          <span>Odlet 15:15</span>
+        </div>
+        <div class="day-theme">Bleší trh &rarr; Protiletecký kryt &rarr; Letiště</div>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-time">8:30</div>
+          <div class="tl-dot meal"></div>
+          <div class="tl-content">
+            <strong>Snídaně v hotelu</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">9:00</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Mercat de Sant Antoni</strong>
+            <span class="tl-badge tl-badge-free">Zdarma</span>
+            <div class="tl-desc">Neděle = bleší trh! Knihy, pohlednice, staré mince. 5 min od hotelu.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">10:15</div>
+          <div class="tl-dot free"></div>
+          <div class="tl-content">
+            <strong>Pohodové ráno v Poble Sec</strong>
+            <div class="tl-desc">Plaça del Sortidor, Jardins de les Tres Xemeneies, káva v lokální kavárně. Rozloučení s &bdquo;vaší&ldquo; čtvrtí.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">11:15</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Zpět do hotelu, kufry</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">12:00</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Checkout</strong>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">12:30</div>
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <strong>Aerobus L1 &rarr; Letiště</strong>
+            <div class="tl-desc">Pl. Espanya, ~35 min, 6.75 EUR.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-time">15:15</div>
+          <div class="tl-dot highlight"></div>
+          <div class="tl-content">
+            <strong>Odlet</strong>
+          </div>
+        </div>
+      </div>
+      <div class="day-footer">
+        <strong>Trasa:</strong> Hotel &rarr; Sant Antoni (5 min) &rarr; Poble Sec procházka &rarr; hotel &rarr; Pl. Espanya (5 min) &rarr; letiště. Vše v okruhu 10 min od hotelu.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CO KOUPIT PŘEDEM -->
+  <div class="buy-ahead">
+    <h3>Koupit / rezervovat PŘEDEM</h3>
+    <ol>
+      <li><s>Park Güell</s> &mdash; lístky na sobotu 12:00 &mdash; <strong style="color:#15803d">KOUPENO</strong></li>
+      <li><s>Casa Batlló</s> &mdash; lístky na sobotu 15:15, General Visit 29 EUR &mdash; <strong style="color:#15803d">KOUPENO</strong></li>
+      <li><s>Flamenco El Duende</s> &mdash; pátek 20:15 &mdash; <strong style="color:#15803d">KOUPENO</strong></li>
+      <li><s>Arume Restaurant</s> &mdash; valentýnská večeře sobota 19:00 &mdash; <strong style="color:#15803d">REZERVOVÁNO</strong></li>
+    </ol>
+  </div>
+
+</section>
+
+<!-- ======================== PAMÁTKY ======================== -->
+<section id="pamatky">
+  <h2>Památky a zajímavosti</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Hlavní body zájmu v Barceloně. Únor je low season &mdash; fronty jsou krátké, město je klidnější. Vyberte si, co vás láká!</p>
+
+  <div class="cards">
+
+    <!-- Sagrada Familia -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Nave_of_Sagrada_Fam%C3%ADlia%2C_Barcelona%2C_2023.jpg/800px-Nave_of_Sagrada_Fam%C3%ADlia%2C_Barcelona%2C_2023.jpg" alt="Sagrada Familia interiér">
+      <div class="card-body">
+        <div class="card-subtitle">Gaudí &middot; Eixample</div>
+        <h3>Sagrada Familia</h3>
+        <p>Gaudího celoživotní dílo a nejnavštěvovanější památka Španělska. Zvenku impozantní, ale teprve interiér vám vyrazí dech &mdash; lesní chrám se sloupy jako stromy a stěnami zalitými duhovým světlem z vitráží. Odpolední světlo (kolem 13:00) rozsvítí teplé západní okna. Stavba probíhá od roku 1882 a blíží se dokončení.</p>
+        <div class="badges">
+          <span class="badge badge-must">Lístky máte!</span>
+          <span class="badge badge-time">1.5-2 hodiny</span>
+          <span class="badge badge-price">26-36 EUR</span>
+          <span class="badge badge-queue">5-10 min fronta</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Park Güell -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Park_Guell_Dragon_Fountain.JPG/800px-Park_Guell_Dragon_Fountain.JPG" alt="Park Güell drak">
+      <div class="card-body">
+        <div class="card-subtitle">Gaudí &middot; Gràcia</div>
+        <h3>Park Güell</h3>
+        <p>Pohádkový park na kopci nad městem. Slavný mozaikový drak (El Drac) na schodišti, zvlněná lavice pokrytá barevnou keramikou s panoramatickým výhledem na celou Barcelonu a moře. Gaudí tu žil 20 let. Monumentální zóna vyžaduje lístky předem, ale volná část parku (borovicový les) je zdarma a krásná.</p>
+        <div class="badges">
+          <span class="badge badge-tip">Lístky předem povinné!</span>
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-price">18 EUR</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Casa Batlló -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Casa_Batll%C3%B3_%28Casa_dels_ossos%29_in_Barcelona_by_Antoni_Gaud%C3%AD.JPG/800px-Casa_Batll%C3%B3_%28Casa_dels_ossos%29_in_Barcelona_by_Antoni_Gaud%C3%AD.JPG" alt="Casa Batlló fasáda">
+      <div class="card-body">
+        <div class="card-subtitle">Gaudí &middot; Passeig de Gràcia</div>
+        <h3>Casa Batlló</h3>
+        <p>Podmořský palác uprostřed města. Fasáda připomíná vlnící se oceán s kostmi a lebkami (přezdívá se jí "dům kostí"). Uvnitř je to ještě lepší &mdash; immersivní prohlídka s rozšířenou realitou a střecha s dračí páteří. Jeden z nejlepších muzejních zážitků v Barceloně. Fasádu si ale prohlédnete krásně i zvenku zdarma.</p>
+        <div class="badges">
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-price">29 EUR (General Visit)</span>
+          <span class="badge badge-queue">5-10 min fronta</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Casa Milà -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Barcelona_-_Casa_Mil%C3%A0_%2811%29.jpg/800px-Barcelona_-_Casa_Mil%C3%A0_%2811%29.jpg" alt="Casa Milà střecha">
+      <div class="card-body">
+        <div class="card-subtitle">Gaudí &middot; Passeig de Gràcia</div>
+        <h3>Casa Milà (La Pedrera)</h3>
+        <p>Zvlněný kamenný dům, který vypadá, jako by žil a dýchal. Hlavní tah je střecha &mdash; surreální les komínů ve tvaru helmových válečníků, odkud máte výhled na celé město včetně Sagrady. Gaudí tu popustil uzdu fantazii: v celém domě nenajdete jedinou rovnou stěnu. Podkrovní výstava vysvětluje jeho geniální přístup.</p>
+        <div class="badges">
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-price">28-39 EUR</span>
+          <span class="badge badge-queue">5-10 min fronta</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gotická čtvrť -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gothic_Quarter%2C_Barcelona_-_panoramio.jpg/800px-Gothic_Quarter%2C_Barcelona_-_panoramio.jpg" alt="Gotická čtvrť">
+      <div class="card-body">
+        <div class="card-subtitle">Historie &middot; Barri Gòtic</div>
+        <h3>Gotická čtvrť</h3>
+        <p>Labyrint středověkých uliček, kde se ztratit je ten nejlepší plán. Římské sloupy staré 2000 let schované za dveřmi na Carrer del Paradís, gotická katedrála s rajským dvorem plným bílých hus, elegantní Plaça Reial s palmami a lucernami od Gaudího. Večer, kdy odejdou turisté, je tu magická romantická atmosféra.</p>
+        <div class="badges">
+          <span class="badge badge-free">Zdarma</span>
+          <span class="badge badge-time">2-3 hodiny procházka</span>
+          <span class="badge badge-tip">Nejlépe ráno nebo večer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- La Boqueria -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fruit_Stall_in_Barcelona_Market.jpg/800px-Fruit_Stall_in_Barcelona_Market.jpg" alt="La Boqueria">
+      <div class="card-body">
+        <div class="card-subtitle">Jídlo &middot; La Rambla</div>
+        <h3>La Boqueria</h3>
+        <p>Nejslavnější trh ve Španělsku s historií od roku 1217. Exploze barev, vůní a chutí &mdash; pyramidy exotického ovoce, čerstvé mořské plody na ledu, ibérská šunka krájená na mikroskopické plátky. Tip: jděte hlouběji od vchodu z La Rambly, tam jsou lepší ceny a autentičtější stánky. Nejlépe brzy ráno (8-10:00).</p>
+        <div class="badges">
+          <span class="badge badge-free">Zdarma</span>
+          <span class="badge badge-time">1-2 hodiny</span>
+          <span class="badge badge-tip">Po-So, zavřeno v neděli</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Magická fontána -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Font_M%C3%A0gica_de_Montju%C3%AFc_13_%282009-05-24%29.JPG/800px-Font_M%C3%A0gica_de_Montju%C3%AFc_13_%282009-05-24%29.JPG" alt="Magická fontána">
+      <div class="card-body">
+        <div class="card-subtitle">Show &middot; Montjuïc</div>
+        <h3>Magická fontána</h3>
+        <p>Obří fontána, která tančí do hudby v barevné světelné show &mdash; a je to úplně zdarma. Na pozadí osvětlený Palau Nacional (MNAC) vytváří jeden z nejikoničtějších pohledů na Barcelonu. Show běží ve čtvrtek, pátek a sobotu od 20:00. Je to 15 minut pěšky od vašeho hotelu!</p>
+        <div class="badges">
+          <span class="badge badge-free">Zdarma!</span>
+          <span class="badge badge-time">30-60 min</span>
+          <span class="badge badge-tip">Čt/Pá/So 20:00</span>
+          <span class="badge badge-must">15 min od hotelu</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Picasso Museum -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Museu_Picasso_Barcelona.JPG/800px-Museu_Picasso_Barcelona.JPG" alt="Picasso Museum">
+      <div class="card-body">
+        <div class="card-subtitle">Umění &middot; El Born</div>
+        <h3>Museu Picasso</h3>
+        <p>Přes 4 000 děl Pabla Picassa v pěti propojených středověkých palácích. Unikátní sbírka zaměřená na jeho formativní barcelonské roky &mdash; uvidíte, jak se z talentovaného teenagera stal revolucionář umění. Samotné paláce z 13.-15. století jsou architektonickým zážitkem. Ideální na deštivý den!</p>
+        <div class="badges">
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-price">12-19 EUR</span>
+          <span class="badge badge-tip">Lístky předem doporučeny</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bunkers del Carmel -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Barcelona_desde_El_Carmel_%281%29.JPG/800px-Barcelona_desde_El_Carmel_%281%29.JPG" alt="Bunkers del Carmel výhled">
+      <div class="card-body">
+        <div class="card-subtitle">Výhledy &middot; El Carmel</div>
+        <h3>Bunkers del Carmel</h3>
+        <p>Nejlepší 360stupňový panoramatický výhled v Barceloně &mdash; a ví o něm jen zlomek turistů. Bývalé protiletecké postavení z občanské války na kopci, odkud vidíte celé město od Sagrady po moře. Místní sem chodí na piknik při západu slunce. Jediná námaha je kopec nahoru (autobus pomůže).</p>
+        <div class="badges">
+          <span class="badge badge-free">Zdarma!</span>
+          <span class="badge badge-time">30-60 min</span>
+          <span class="badge badge-tip">Nejlépe západ slunce</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hospital de Sant Pau -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hospital_de_la_Santa_Creu_i_de_Sant_Pau%2C_fa%C3%A7ana.JPG/800px-Hospital_de_la_Santa_Creu_i_de_Sant_Pau%2C_fa%C3%A7ana.JPG" alt="Hospital de Sant Pau">
+      <div class="card-body">
+        <div class="card-subtitle">Modernismus &middot; Eixample</div>
+        <h3>Hospital de Sant Pau</h3>
+        <p>Nemocnice, která vypadá jako palác. Secesní komplex od architekta Domènecha, který Gaudímu zdatně konkuroval. Mozaikové kupole, barevné sloupy, zahradní pavilony &mdash; UNESCO památka, kterou většina turistů přehlédne. Je jen 10 minut pěšky od Sagrady, takže se dá krásně zkombinovat.</p>
+        <div class="badges">
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-price">15-17 EUR</span>
+          <span class="badge badge-queue">Minimální fronta</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Palau de la Música -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Palau_de_la_M%C3%BAsica_-_Interior_general.JPG/800px-Palau_de_la_M%C3%BAsica_-_Interior_general.JPG" alt="Palau de la Música Catalana">
+      <div class="card-body">
+        <div class="card-subtitle">Architektura &middot; El Born</div>
+        <h3>Palau de la Música Catalana</h3>
+        <p>Dechberoucí secesní koncertní sál &mdash; obrovská skleněná kopule, sloupy pokryté mozaikou, sochy, květiny z keramiky... Říká se mu "zatuhlá hudba v kameni". UNESCO památka a nejkrásnější koncertní sál, který pravděpodobně uvidíte v životě. Můžete si koupit lístek na koncert nebo prohlídku.</p>
+        <div class="badges">
+          <span class="badge badge-time">1 hodina prohlídka</span>
+          <span class="badge badge-price">16-22 EUR</span>
+          <span class="badge badge-tip">Rezervujte předem</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Montjuïc -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Montju%C3%AFc_Castell.JPG/800px-Montju%C3%AFc_Castell.JPG" alt="Montjuïc hrad">
+      <div class="card-body">
+        <div class="card-subtitle">Příroda &amp; výhledy &middot; Montjuïc</div>
+        <h3>Montjuïc</h3>
+        <p>Zelený kopec přímo za vaším hotelem. Zahrady s 800 druhy kaktusů (NY Times top 10!), hrad s panoramatickými výhledy na přístav, MNAC s nejlepší terasou ve městě, Fundació Miró, tajný bar La Caseta del Migdia se západem slunce nad mořem. Nahoru se dá jet lanovkou přímo ze stanice Paral&middot;lel.</p>
+        <div class="badges">
+          <span class="badge badge-must">Za rohem hotelu!</span>
+          <span class="badge badge-time">Půl dne - celý den</span>
+          <span class="badge badge-free">Zahrady zdarma</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== ČTVRTI ======================== -->
+<section id="ctvrti">
+  <h2>Čtvrti Barcelony</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Každá čtvrť má svou vlastní osobnost. Vzdálenosti jsou od vašeho hotelu na Paral&middot;lel.</p>
+
+  <div class="hood-grid">
+
+    <div class="hood-card home">
+      <h3>Poble Sec (vaše základna!)</h3>
+      <div class="hood-dist">Jste tu doma</div>
+      <p>Autentická, trendy čtvrť na úpatí Montjuïc. Nejméně turistická v centru &mdash; tady žije skutečná Barcelona. Av. del Paral&middot;lel byl kdysi "barcelonský Broadway" plný kabaretů.</p>
+      <ul>
+        <li>Carrer de Blai &mdash; pintxos ulice, tapas crawl</li>
+        <li>Gran Bodega Saltó &mdash; bizarní vinotéka s živou hudbou</li>
+        <li>El Molino &mdash; legendární kabaret od 1898</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Barri Gòtic (Gotická čtvrť)</h3>
+      <div class="hood-dist">15-20 min pěšky &middot; Metro L3 Liceu</div>
+      <p>Středověký labyrint uliček, římské ruiny, gotické věže. Magická atmosféra &mdash; ideální na romantickou večerní procházku.</p>
+      <ul>
+        <li>Katedrála se zahradou plnou bílých hus</li>
+        <li>Plaça Reial &mdash; lucerny od Gaudího</li>
+        <li>Temple d'August &mdash; skryté římské sloupy (2000+ let)</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>El Born / La Ribera</h3>
+      <div class="hood-dist">25 min pěšky &middot; Metro L4 Jaume I</div>
+      <p>Středověké kouzlo + moderní lifestyle. Butiky, galerie, vinné bary. Méně turistů než Gòtic, víc atmosféry.</p>
+      <ul>
+        <li>Museu Picasso &mdash; 5 středověkých paláců</li>
+        <li>Santa Maria del Mar &mdash; "katedrála moře"</li>
+        <li>Palau de la Música &mdash; secesní skvost</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>El Raval</h3>
+      <div class="hood-dist">10-15 min pěšky</div>
+      <p>Multikulturní a bohémská. Street art, alternativní galerie, nejlepší kebab ve městě vedle Gaudího paláce. Pozor na kapesní zloděje.</p>
+      <ul>
+        <li>MACBA &mdash; muzeum současného umění</li>
+        <li>La Boqueria &mdash; slavný trh</li>
+        <li>Palau Güell &mdash; raný Gaudí, dostupnější</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Eixample &amp; Passeig de Gràcia</h3>
+      <div class="hood-dist">25-30 min pěšky &middot; Metro L3</div>
+      <p>Elegantní bulváry s Gaudího stavbami a luxusními obchody. Pravidelná mřížová zástavba z 19. století.</p>
+      <ul>
+        <li>Casa Batlló + Casa Milà na jedné ulici</li>
+        <li>Sagrada Familia (metrem L2)</li>
+        <li>Luxusní nákupy, kavárny, architektura</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Gràcia</h3>
+      <div class="hood-dist">40-50 min pěšky &middot; Metro L3 Fontana (10 min)</div>
+      <p>Bohémská vesnice uvnitř velkoměsta. Malá náměstíčka s kavárničkami, nezávislé obchůdky, umělci.</p>
+      <ul>
+        <li>Park Güell &mdash; Gaudího pohádkový park</li>
+        <li>Plaça del Sol &mdash; epicentrum místního života</li>
+        <li>Casa Vicens &mdash; první Gaudího dům (UNESCO)</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Barceloneta</h3>
+      <div class="hood-dist">20-25 min pěšky</div>
+      <p>Historická rybářská čtvrť. Úzké uličky s prádlem na šňůrách, 1 km pláže, čerstvé ryby a slavné tapas "bombas".</p>
+      <ul>
+        <li>Pláž &mdash; promenáda, W Hotel na pozadí</li>
+        <li>Lanovka na Montjuïc přes přístav</li>
+        <li>Chiringuitos &mdash; plážové bary</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Sant Antoni</h3>
+      <div class="hood-dist">5-10 min pěšky (soused!)</div>
+      <p>Tradice + moderna. Renovovaný historický trh, hipsterské kavárny na Carrer del Parlament. Oblíbená u mladých profesionálů.</p>
+      <ul>
+        <li>Mercat de Sant Antoni &mdash; v neděli bleší trh</li>
+        <li>Carrer del Parlament &mdash; restaurace, bary</li>
+        <li>Brunch kultura &mdash; Federal Café &amp; spol.</li>
+      </ul>
+    </div>
+
+    <div class="hood-card">
+      <h3>Poblenou</h3>
+      <div class="hood-dist">40-50 min pěšky &middot; Metro L2 (15 min)</div>
+      <p>Bývalá průmyslová čtvrť přeměněná v kreativní hub. Kavárny v továrnách, street art na zdech, klidnější pláže.</p>
+      <ul>
+        <li>Street art galerie pod širým nebem</li>
+        <li>Pláž Bogatell &mdash; klidnější alternativa</li>
+        <li>Rambla del Poblenou &mdash; místní promenáda</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== JÍDLO ======================== -->
+<section id="jidlo">
+  <h2>Co musíte ochutnat</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Katalánská kuchyně je úžasná. Tady jsou pokrmy, kvůli kterým stojí za to přiletět do Barcelony.</p>
+
+  <div class="food-cards">
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%2C_pan_con_tomate_%2C_-_Flickr_-_arquera.jpg/800px-%2C_pan_con_tomate_%2C_-_Flickr_-_arquera.jpg" alt="Pa amb tomàquet">
+      <div class="card-body">
+        <h3>Pa amb tomàquet</h3>
+        <p>Základ katalánské kuchyně &mdash; opečený chléb natřený čerstvým rajčetem, česnekem, olivovým olejem a solí. Podává se ke všemu: k šunce, sýru, k rybě. Tak jednoduchý a tak dokonalý.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Fideua_-_xurde.jpg/800px-Fideua_-_xurde.jpg" alt="Fideuà">
+      <div class="card-body">
+        <h3>Fideuà</h3>
+        <p>Katalánská odpověď na paellu &mdash; místo rýže tenké nudle s mořskými plody, safránem a podávané s aioli. Pochází z pobřeží Gandie. Nejlepší u moře v Barcelonetě.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Barra_de_pintxos_Donosti_07.JPG/800px-Barra_de_pintxos_Donosti_07.JPG" alt="Pintxos bar">
+      <div class="card-body">
+        <h3>Pintxos na Carrer de Blai</h3>
+        <p>Ulice plná pintxo barů 10 minut od hotelu! Nabodnuté jednohubky za 1-2 EUR, berete si je z pultu, na konci platíte podle špejlí. Ideální tapas crawl &mdash; ochutnáte 20 věcí za večer.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" style="background: linear-gradient(135deg, #8B4513, #D2691E); height: 180px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bomba_%28tapa%29.jpg/800px-Bomba_%28tapa%29.jpg" alt="Bomba tapa" onerror="this.style.display='none'">
+      <div class="card-body">
+        <h3>Bomba de la Barceloneta</h3>
+        <p>Místní specialita &mdash; smažená bramborová kulička plněná masem, podávaná s pikantní omáčkou a aioli. Vynalezena v Barcelonetě. Jednoduchá, výbušná, návyková. Nejlepší přímo v rybářské čtvrti.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" style="background: linear-gradient(135deg, #2d1b0e, #5c3a1e); height: 180px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <h3>Vermut ritual</h3>
+        <p>Mezi 12:00-14:00 si místní dají vermut z barelu s olivami a tapas &mdash; "fer el vermut". Posvátný rituál, zejména v Poble Sec. Zkuste v Bodega La Tieta nebo Gran Bodega Saltó. Přijdete jako turista, odejdete jako místní.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" style="background: linear-gradient(135deg, #1a3a1a, #2d5a2d); height: 180px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <h3>Arròs negre</h3>
+        <p>Černá rýže barvená inkoustem sépie s mořskými plody. Vypadá dramaticky, chutná nebesky. Lehce slaná, s hloubkou mořské chuti. Klasika katalánských rybářských restaurací.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== DEZERTY ======================== -->
+<section id="dezerty">
+  <h2>Sladké hříchy</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Barcelona má sladkou stránku, která stojí za prozkoumání.</p>
+
+  <div class="food-cards">
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Cazuelita_con_crema_catalana._Postre.jpg/800px-Cazuelita_con_crema_catalana._Postre.jpg" alt="Crema Catalana">
+      <div class="card-body">
+        <h3>Crema Catalana</h3>
+        <p>Katalánský crème brûlée &mdash; ale lehčí a voňavější díky citrónové kůře a skořici. Karamelizovaný cukr navrchu křupe pod lžičkou. Najdete v každé tradiční restauraci, ale v Granja M. Viader ji flamírují přímo u stolu.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Chocolate-con-churros.jpg/800px-Chocolate-con-churros.jpg" alt="Churros con chocolate">
+      <div class="card-body">
+        <h3>Churros con chocolate</h3>
+        <p>Křupavé smažené těsto máčené v husté horké čokoládě. V Granja M. Viader (od 1870!) podávají i "suizo" &mdash; hustou čokoládu se šlehačkou. Perfektní na deštivé odpoledne. Jedna z nejstarších kaváren v Barceloně.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Xuixo_pastry_Girona.jpg/800px-Xuixo_pastry_Girona.jpg" alt="Xuixo">
+      <div class="card-body">
+        <h3>Xuixo (čti: šušo)</h3>
+        <p>Smažená válcová kobliha plněná crema catalana, obalená v křupavém cukru. Vynalezená ve 1920s. Najdete v La Colmena (od 1849) u metra Jaume I &mdash; nejstarší cukrárna v Barceloně. Jeden kousek a budete závislí.</p>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <img class="card-img" style="background: linear-gradient(135deg, #f4e6c8, #e8d5a8); height: 180px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <h3>Pastisseria Escribà</h3>
+        <p>Rodinná cukrárna ve 4. generaci v nádherné Art Nouveau budově přímo na La Ramble. Pomerančový dort, "kočičí jazýčky" z čokolády &mdash; vizuálně i chuťově umělecká díla. Budova samotná stojí za zastavení.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== VEČERNÍ ZÁBAVA ======================== -->
+<section id="zabava">
+  <h2>Večerní zábava</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Flamenco, kabaret, živá hudba &mdash; barcelonské večery mají svou vlastní magii.</p>
+
+  <div class="cards">
+
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #8B0000, #DC143C); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Kabaret &middot; Paral&middot;lel</div>
+        <h3>El Molino</h3>
+        <p>Barcelonský Moulin Rouge přímo na vaší ulici! Ikonická budova s červeným větrným mlýnem na střeše, fungující od 1898. Kabaret, burlesque, flamenco, jazz. Srovnávali ho s pařížským Montmartrem. Cca 25 EUR, check program na webu.</p>
+        <div class="badges">
+          <span class="badge badge-must">4 min od hotelu!</span>
+          <span class="badge badge-price">~25 EUR</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #4a1a0a, #8B4513); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Flamenco &middot; El Born</div>
+        <h3>Palau Dalmases</h3>
+        <p>Flamenco v 17. stol. barokním paláci naproti Picassovu muzeu. Nejkrásnější prostor pro flamenco v Barceloně &mdash; intimní, s reliéfy, sochami a nádherným patiem. Show 4x denně, VIP v předních řadách. Dorazte dřív a užijte si bar.</p>
+        <div class="badges">
+          <span class="badge badge-price">30-50 EUR</span>
+          <span class="badge badge-time">1 hodina show</span>
+          <span class="badge badge-tip">Rezervace nutná!</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #1a1a3e, #2d2d5e); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Flamenco &amp; večeře &middot; Montjuïc</div>
+        <h3>Tablao de Carmen</h3>
+        <p>Flamenco show s večeří v Poble Espanyol na Montjuïc. Balíčky od nápoj+show (48 EUR) po Star Night s cava welcome a degustačním menu (154 EUR). Vstupenka zahrnuje vstup do Poble Espanyol. Blízko hotelu!</p>
+        <div class="badges">
+          <span class="badge badge-price">48-154 EUR</span>
+          <span class="badge badge-time">Večeře + show</span>
+          <span class="badge badge-must">15 min od hotelu</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #0a0a2e, #1a1a4e); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Valentýn &middot; Speciál</div>
+        <h3>Candlelight San Valentín</h3>
+        <p>Valentýnský koncert filmových soundtracků při svíčkách v historickém Reial Cercle Artístic. So 14. 2. ve 22:00. Romantika na maximum &mdash; stovky svíček, živá hudba, historický prostor. Ideální zakončení valentýnského dne.</p>
+        <div class="badges">
+          <span class="badge badge-price">od 38 EUR</span>
+          <span class="badge badge-tip">So 14. 2. ve 22:00</span>
+          <span class="badge badge-must">Rezervujte hned!</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== UMĚNÍ & MUZEA ======================== -->
+<section id="umeni">
+  <h2>Umění &amp; muzea</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Barcelona je ráj moderního umění. Bonus: 12. února je svátek Santa Eulàlia &mdash; MACBA, CCCB i Fundació Miró mají vstup zdarma!</p>
+
+  <div class="cards">
+
+    <!-- MACBA -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Museu_d%27Art_Contemporani_de_Barcelona_%28MACBA%29._%28Partial_view%29.jpg/800px-Museu_d%27Art_Contemporani_de_Barcelona_%28MACBA%29._%28Partial_view%29.jpg" alt="MACBA" onerror="this.style.background='linear-gradient(135deg,#fff,#e8e8e8)'; this.style.height='220px'">
+      <div class="card-body">
+        <div class="card-subtitle">Současné umění &middot; El Raval</div>
+        <h3>MACBA</h3>
+        <p>Vlajková loď současného umění v Barceloně v ikonické bílé budově od Richarda Meiera. V únoru 2026 slaví 30. výročí s ambiciózním programem. Výstava "Project a Black Planet" o panafrickém umění. Náměstí před muzeem je centrem skateboardové kultury. 12. února vstup zdarma!</p>
+        <div class="badges">
+          <span class="badge badge-price">12 EUR</span>
+          <span class="badge badge-free">12. 2. ZDARMA!</span>
+          <span class="badge badge-time">1.5-2 hodiny</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fundació Joan Miró -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Fundaci%C3%B3_Joan_Mir%C3%B3.jpg/800px-Fundaci%C3%B3_Joan_Mir%C3%B3.jpg" alt="Fundació Miró" onerror="this.style.background='linear-gradient(135deg,#f5e6d0,#e8d5b8)'; this.style.height='220px'">
+      <div class="card-body">
+        <div class="card-subtitle">Moderní umění &middot; Montjuïc</div>
+        <h3>Fundació Joan Miró</h3>
+        <p>Jedno z nejdůležitějších muzeí v Barceloně s kompletním přehledem Miróva díla. V únoru poslední šance vidět výstavu "Miró and the United States" (130+ děl, končí 22. 2.!) &mdash; dialog Miróa s americkými umělci jako Pollock, Rothko a Bourgeois. Krásná budova na Montjuïc s výhledy.</p>
+        <div class="badges">
+          <span class="badge badge-price">18 EUR</span>
+          <span class="badge badge-free">12. 2. ZDARMA!</span>
+          <span class="badge badge-tip">Výstava končí 22. 2.!</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Moco Museum -->
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #1a1a1a, #333); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Moderní &amp; současné &middot; El Born</div>
+        <h3>Moco Museum</h3>
+        <p>Banksy, Warhol, Haring, Kusama &mdash; a monumentální Dalího skulptura "Woman Aflame"! V historickém paláci ze 16. století kombinuje moderní klasiky s imerzivními digitálními instalacemi teamLab. Přístupná forma současného umění, ideální pokud máte rádi Dalího.</p>
+        <div class="badges">
+          <span class="badge badge-price">18 EUR</span>
+          <span class="badge badge-time">1-1.5 hodiny</span>
+          <span class="badge badge-must">Dalí skulptura!</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Casa Batlló Contemporary -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Casa_Batll%C3%B3_%28Casa_dels_ossos%29_in_Barcelona_by_Antoni_Gaud%C3%AD.JPG/800px-Casa_Batll%C3%B3_%28Casa_dels_ossos%29_in_Barcelona_by_Antoni_Gaud%C3%AD.JPG" alt="Casa Batlló">
+      <div class="card-body">
+        <div class="card-subtitle">Novinka 2026! &middot; Passeig de Gràcia</div>
+        <h3>Casa Batlló Contemporary</h3>
+        <p>Úplně nový galerijní prostor otevřený v lednu 2026 ve 2. patře Gaudího ikonické Casa Batlló! Inaugurační výstava "Beyond the Facade" od United Visual Artists &mdash; imerzivní cesta od světla ke tmě. Součást oslav Roku Gaudího 2026 (100 let od jeho smrti).</p>
+        <div class="badges">
+          <span class="badge badge-must">Novinka 2026!</span>
+          <span class="badge badge-tip">Rok Gaudího</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galería Mayoral - Dalí -->
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #8B6914, #D4A843); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Dalí &amp; Miró &middot; Eixample</div>
+        <h3>Galería Mayoral &mdash; "Transnarcis"</h3>
+        <p>Skupinová výstava zahrnující díla Salvadora Dalího, Miróa, Caldera a dalších. Senzorická cesta &mdash; "zahrada v neustálé metamorfóze". Kurátorem Gabriel Ventura. Otevřeno do 14. března 2026 a hlavně &mdash; vstup je zdarma!</p>
+        <div class="badges">
+          <span class="badge badge-free">ZDARMA!</span>
+          <span class="badge badge-must">Dalí + Miró</span>
+          <span class="badge badge-tip">Do 14. 3. 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dalí Figueres -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Teatro_Museo_Dal%C3%AD_en_Figueras.jpg/800px-Teatro_Museo_Dal%C3%AD_en_Figueras.jpg" alt="Dalí muzeum Figueres" onerror="this.style.background='linear-gradient(135deg,#8B4513,#D2691E)'; this.style.height='220px'">
+      <div class="card-body">
+        <div class="card-subtitle">Dalí &middot; Výlet do Figueres</div>
+        <h3>Dalího divadelní muzeum</h3>
+        <p>Hlavní Dalího muzeum na světě &mdash; a jeho poslední velké dílo, které sám navrhl do nejmenšího detailu. Pod skleněnou kupolí je i Dalího hrob. Tisíce děl, optické iluze, surreálno na každém kroku. 55 minut rychlovlakem z Barcelona Sants, vlaky jezdí celý den.</p>
+        <div class="badges">
+          <span class="badge badge-price">18.50 EUR + vlak</span>
+          <span class="badge badge-time">Půldenní výlet</span>
+          <span class="badge badge-must">Pro fanoušky Dalího!</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frida Kahlo -->
+    <div class="card">
+      <img class="card-img" style="background: linear-gradient(135deg, #1a472a, #2d8B57); height: 220px;" src="data:," alt="" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="card-subtitle">Frida Kahlo &middot; Barcelona</div>
+        <h3>Frida v Barceloně</h3>
+        <p>Imerzivní výstava "Frida Kahlo: La Vida de un Mito" v IDEAL centru možná stále běží &mdash; nutno ověřit (tel: 930107458). V Poble Sec je mural Fridy od Berol377 (Carrer de Margarit). V Gràcii najdete obchůdek Kahlo Passió s Frida merchandise. A existuje i park Jardins de Frida Kahlo.</p>
+        <div class="badges">
+          <span class="badge badge-tip">Ověřit IDEAL!</span>
+          <span class="badge badge-must">Street art v Poble Sec</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CCCB -->
+    <div class="card">
+      <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Centre_de_Cultura_Contempor%C3%A0nia_de_Barcelona_%28CCCB%29._%28Partial_view%29.jpg/800px-Centre_de_Cultura_Contempor%C3%A0nia_de_Barcelona_%28CCCB%29._%28Partial_view%29.jpg" alt="CCCB" onerror="this.style.background='linear-gradient(135deg,#ccc,#eee)'; this.style.height='220px'">
+      <div class="card-body">
+        <div class="card-subtitle">Kultura &middot; El Raval</div>
+        <h3>CCCB</h3>
+        <p>Multidisciplinární centrum hned vedle MACBA v nádherné budově bývalého chudobince. Propojuje umění, architekturu, literaturu a film. Nová výstava "War, so much War..." od 15. 2. Překrásný prosklený dvůr. Dá se krásně zkombinovat s MACBA na jeden den.</p>
+        <div class="badges">
+          <span class="badge badge-price">6-8 EUR</span>
+          <span class="badge badge-free">12. 2. ZDARMA!</span>
+          <span class="badge badge-time">1-1.5 hodiny</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top: 28px; padding: 20px; background: #fff8e1; border-radius: 12px; border-left: 4px solid #f57f17;">
+    <strong style="color: #f57f17;">Tip: Articket BCN (38 EUR)</strong> &mdash; Kombinovaná vstupenka do 6 muzeí (MACBA, CCCB, Fundació Miró, Fundació Tàpies, MNAC, MUHBA). Platí 12 měsíců, umožňuje přeskočení fronty. Vyplatí se při návštěvě 3+ muzeí.
+  </div>
+  <div style="margin-top: 12px; padding: 20px; background: #e8f5e9; border-radius: 12px; border-left: 4px solid #2e7d32;">
+    <strong style="color: #2e7d32;">2026 = Rok Gaudího!</strong> &mdash; Barcelona slaví 100 let od smrti Antoniho Gaudího. Speciální výstavy, program a události po celém městě. Barcelona je v roce 2026 Světové hlavní město architektury.
+  </div>
+
+</section>
+
+<!-- ======================== U HOTELU ======================== -->
+<section id="okoli">
+  <h2>U vašeho hotelu</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Poble Sec je plné skrytých pokladů. Tohle všechno máte do 15 minut pěšky.</p>
+
+  <div class="hood-grid">
+
+    <div class="hood-card home">
+      <h3>Jardins de les Tres Xemeneies</h3>
+      <div class="hood-dist">2 min od hotelu</div>
+      <p>Park s legálními graffiti stěnami, které se mění každý týden. Tři cihlové komíny z bývalé elektrárny La Canadenca (1896). Skatepark, stolní tenis, petanque. Stávka dělníků zde v 1919 vedla k zavedení 8hodinového pracovního dne!</p>
+    </div>
+
+    <div class="hood-card">
+      <h3>Refugi 307</h3>
+      <div class="hood-dist">8 min od hotelu</div>
+      <p>Protiletecký kryt z občanské války &mdash; 400 metrů tunelů, které si obyvatelé Poble Sec sami vykopali pro 2000 lidí. Přístupný pouze v neděli 10:30 s průvodcem, 3.50 EUR. Nutná online rezervace.</p>
+    </div>
+
+    <div class="hood-card">
+      <h3>CaixaForum</h3>
+      <div class="hood-dist">10 min od hotelu</div>
+      <p>Výstavy současného umění v nádherné modernistické továrně od Puig i Cadafalcha. Měnící se výstavy, fotografie, VR. 6 EUR. Skvělá volba na deštivé odpoledne.</p>
+    </div>
+
+    <div class="hood-card">
+      <h3>Pavilon Mies van der Rohe</h3>
+      <div class="hood-dist">12 min od hotelu</div>
+      <p>Ikona moderní architektury &mdash; sklo, ocel, čtyři druhy kamene. Němec Mies van der Rohe ho navrhl pro Světovou výstavu 1929. Zde vznikla slavná "Barcelona Chair". 8 EUR.</p>
+    </div>
+
+    <div class="hood-card">
+      <h3>MNAC &amp; terasa</h3>
+      <div class="hood-dist">20 min od hotelu (eskalátory)</div>
+      <p>Národní muzeum umění v monumentálním paláci. Unikátní sbírka románských fresek. Ale i bez vstupu: terasa nahoře nabízí nejlepší panoramatický výhled na Barcelonu &mdash; zdarma!</p>
+    </div>
+
+    <div class="hood-card">
+      <h3>La Caseta del Migdia</h3>
+      <div class="hood-dist">Na Montjuïc (lanovkou + 15 min)</div>
+      <p>Tajný bar v borovicovém hájku na odvrácené straně Montjuïc. DJ, živá hudba, a jedno z mála míst v Barceloně, odkud vidíte západ slunce nad mořem. Místní tajemství.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Barcelona 12.-15. 2. 2026 &mdash; Vytvořeno s pomocí Claude</p>
+</footer>
+
+<script>
+  // Highlight active nav on scroll
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  });
+</script>
+
+</body>
+</html>
