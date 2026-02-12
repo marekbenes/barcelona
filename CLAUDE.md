@@ -373,6 +373,66 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 3. ~~**El Duende flamenco** - lístky na pátek 20:15 (kód DUENDEWEB20 = -20%)~~ KOUPENO
 4. ~~**Arume Restaurant** - valentýnská večeře sobota 19:00~~ REZERVOVÁNO
 
+## Bezpečnost a kapsáři
+
+Barcelona není nebezpečné město, ale kapesní krádeže tvoří ~50 % veškeré kriminality. Násilná trestná činnost vůči turistům je vzácná. Únor = méně turistů = méně zlodějů, ale ostražitost je nutná.
+
+### Hodnocení čtvrtí na itineráři
+| Čtvrť | Den | Riziko | Poznámka |
+|-------|-----|--------|----------|
+| Poble Sec (hotel) | celý víkend | ✅ Nízké | Bezpečná rezidenční čtvrť |
+| Montjuïc | čt odpoledne | ✅ Nízké | Bezpečné za světla, opuštěné kouty po setmění |
+| Eixample (Sagrada, Passeig de Gràcia) | pá + so | ✅ Nízké | Široké osvětlené bulváry |
+| Gràcia (Park Güell) | so ráno | ✅ Nízké | Klidná bohémská čtvrť |
+| Sant Antoni (trh) | ne | ✅ Nízké | Bezpečná, lokální |
+| El Born (Picasso) | pá odpoledne | ✅/⚠️ Nízké-střední | Pozor na kapsáře v davech |
+| Barri Gòtic | pá + so | ⚠️ Střední | Úzké uličky = ideální pro kapsáře |
+| Barceloneta | ne ráno | ✅ Nízké | Ranní návštěva OK. Pláž po 22:00 NE |
+| La Rambla (El Duende, Boqueria) | pá + so | ⚠️⚠️ Vysoké | **Nejvíc kapsářů v Barceloně!** |
+| El Raval (Viader, Arume) | pá + so | ⚠️ Střední | Severní část OK za světla. Po 22:00 taxi |
+
+### Rizikové momenty na itineráři
+- **Pá 20:15 — El Duende, La Rambla 33:** La Rambla večer = nejvyšší riziko. Zvážit taxi z hotelu. Zpět (~21:30) taxi/Uber.
+- **So — La Boqueria trh:** Přeplněné, tašky zavřené na břiše, ruka na nich.
+- **So večer — Arume Restaurant (Raval, 19:00):** V 19:00 OK. Zpátky po 21:00 zvážit taxi.
+- **Metro L3** (hlavní linka): Kapsáři při nastupování/vystupování.
+
+### Nejčastější triky kapsářů
+- **Rozptýlení:** Skupinka — jeden rozptyluje (mapa, otázka), druhý krade
+- **Falešné petice:** Clipboard s "peticí", zatímco okrádají
+- **Květinářky:** Přistoupí k páru, nabízí květinu, sahají do kapes
+- **Hořčicový trik:** "Náhodně" postříknou, pomáhají čistit, kradou
+- **Metro chaos:** Zmatek (upuštěné věci, hádka), kradou v tlačenici
+- **Vytrhnutí telefonu:** Z ruky na ulici nebo v metru
+
+### Praktické rady
+- **Crossbody taška na břiše**, vždy zavřená
+- **Telefon nedávat na stůl** v restauracích venku, nepoužívat za chůze v turistických zónách
+- **Pas v trezoru** v hotelu, nosit kopii
+- **Rozdělit hotovost a karty** — nenechávat vše pohromadě
+- El Raval po 22:00 — **taxi**
+- La Rambla — jít rychle, účelně, nikoho neoslovovat
+- Barceloneta pláž po 22:00 — **vyhnout se**
+- Metro: pozor při nastupování/vystupování, taška zavřená, ruka na ní
+
+### Místa, kterým se vyhnout
+| Oblast | Proč |
+|--------|------|
+| Jižní Raval (pod C/ de l'Hospital) po tmě | Nejproblémovější oblast centra |
+| La Rambla po půlnoci | Kapsáři, podvodníci |
+| Barceloneta pláž po 22:00 | Krádeže |
+| Opuštěné části Montjuïc po setmění | Izolované, špatně osvětlené |
+| Okolí Sants station v noci | Zvýšená kriminalita |
+
+### Nouzové kontakty
+| Služba | Číslo |
+|--------|-------|
+| Tísňová linka | **112** |
+| Mossos d'Esquadra (katalánská policie) | **088** |
+| Městská policie | **092** |
+| Turistická pomoc (24h, vícejazyčně) | **+34 932 853 832** |
+| Policejní stanice u La Rambla | Las Ramblas 43 |
+
 ## Web
 - **Soubor:** `index.html` (ve stejné složce jako tento CLAUDE.md)
 - **Lokální server:** `python3 -m http.server 8766` → http://localhost:8766/index.html
