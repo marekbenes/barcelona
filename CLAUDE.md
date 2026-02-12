@@ -343,14 +343,106 @@ Alternativně: stáhnout appku **Cartera T-mobilitat**, koupit jízdenku v mobil
 - Na některých stanicích metra také možné
 - Drahé a bez výhody přestupů — jen jako záloha
 
-## Kola / E-bikes
-- **Bicing (městská) NELZE** - vyžaduje NIE (španělské ID rezidenta)
-- **Donkey Republic** - app, cca 12 EUR/den, e-bikes dostupné
-- **Barcelona Rent a Bike** - od 8 EUR/den, u La Rambla
-- **E-bike Rent Barcelona** - 20 EUR/2h, 29 EUR/den
-- Přes 200 km cyklostezek ve městě
+## Kola / Bike-sharing
+
+### Bicing (městský systém) — NELZE pro turisty
+- Vyžaduje DNI (španělské občanství) nebo NIE (residenční ID)
+- Členská karta se posílá na adresu v Katalánsku
+- 6 000 mechanických + 300 elektrických kol, 519 stanic
+- Cena pro residenty: 50 EUR/rok — pro nás nedostupné
+
+### Bike-sharing systémy dostupné turistům
+
+#### 1. Donkey Republic — HLAVNÍ VOLBA pro turisty
+- **Typ:** Klasická kola (oranžová), bez elektrického pohonu
+- **Appka:** Donkey Republic (iOS / Android), odemykání přes Bluetooth
+- **Jak funguje:** V appce najdeš kolo na mapě → naskenuj QR / odemkni v appce → jeď → vrať na libovolném drop-off bodu (virtuální stanice na mapě)
+- **Vrácení na jiném místě:** ANO — stovky drop-off bodů po celé Barceloně
+- **Cena:** ~1 EUR/15 min (pay-per-use) | ~12 EUR/den | ~15 EUR/90 min (kratší pronájem) | denní a týdenní passy v appce
+- **Lze pronajmout až 5 kol najednou** (ideální pro pár)
+- **Výhody:** Jednoduchá appka, flexibilní vrácení kamkoliv, žádná registrace s ID, funguje okamžitě
+- **Nevýhody:** Kola jsou těžší (bez elektropohonu), 6 převodů — do kopce (Park Güell, Montjuïc) náročnější. Na rovinu a krátké vzdálenosti ideální
+- **Pokrytí:** Centrum, pobřeží, Eixample, Barceloneta, Gràcia — hustá síť
+
+#### 2. Bolt — E-BIKES (elektrická kola)
+- **Typ:** E-bikes s elektrickou asistencí — skvělé do kopců!
+- **Appka:** Bolt (iOS / Android) — stejná appka jako pro taxi/ride-hailing
+- **Jak funguje:** Naskenuj QR kód na kole v dockovací stanici → jeď → vrať do libovolné Bolt stanice
+- **Vrácení na jiném místě:** ANO — dockové stanice po městě
+- **Cena:** 1 EUR základ + 0,25 EUR/min | Day Pass od 6,49 EUR
+- **Výhody:** Elektrický pohon = Montjuïc i Park Güell bez problémů, moderní kola
+- **Nevýhody:** Nutné vracet do dock stanic (méně flexibilní než Donkey), dostupnost kol závisí na lokaci
+
+#### 3. Lime — Kola
+- **Typ:** Kola (bez e-scooterů v Barceloně)
+- **Appka:** Lime (iOS / Android)
+- **Jak funguje:** Podobně jako Donkey — najdi, odemkni, jeď
+- **Parkování:** Povinně u designovaných U-stojanů na kola
+- **Výhody:** Známá globální značka, dobrá appka
+- **Nevýhody:** Méně rozšířené v Barceloně než Donkey/Bolt
+
+#### 4. RideMovi — E-BIKES (⚠️ opatrně!)
+- **Typ:** E-bikes
+- **Appka:** RideMovi (iOS / Android)
+- **Jak funguje:** QR kód → jeď → vrať do P-zóny
+- **Cena:** Nejasná — uživatelé hlásí ~4 EUR/25 min, ~1,50 EUR/15 min s předplatným
+- **⚠️ VAROVÁNÍ:** Mnoho turistů hlásí problémy:
+  - Automatické stržení měsíčního předplatného po jednorázové jízdě
+  - Pokuty za parkování i v označených zónách (~3 EUR)
+  - Špatná zákaznická podpora, obtížné rušení z ciziny
+- **Nedoporučujeme** kvůli netransparentním cenám a rizikovým recenzím
+
+### Další služby — proč NE
+
+#### AMBici — NEPOKRÝVÁ centrum Barcelony
+- Metropolitní bike-sharing systém (2 600 e-bikes, 236 stanic)
+- **Ale:** Stanice jsou POUZE v okolních městech (Hospitalet, Badalona, Cornellà, Gavà...) — NE v centru Barcelony!
+- Centrum pokrývá Bicing (jen rezidenti). AMBici doplňuje Bicing v metropolitní oblasti.
+- Existují krátkodobé passy (24h/48h/72h), registrace přes JoTMBé účet
+- Cena: 0,15 EUR/prvních 30 min, pak 0,50 EUR/30 min
+- **Pro náš výlet nepoužitelné** — potřebujeme kola v centru města
+
+#### Cooltra — spíš mopedy, složitá registrace
+- Primárně sdílení elektrických mopedů (skútrů), sekundárně e-bikes
+- **Cena:** 0,26 EUR/min (15 min = 3,90 EUR — drahé!), nebo 24h/48h PASS
+- **Problém pro turisty:** Registrace vyžaduje zaslání řidičáku + selfie + pasu, schválení trvá ~1 den
+- Na krátký víkend nepraktické — než vás schválí, už jste doma
+- Denní pronájem v kamenné pobočce od 40 EUR/den (drahé vs. Donkey 12 EUR)
+
+### Doporučení pro náš víkend
+
+| Služba | Typ kola | Do kopce? | Flexibilita vrácení | Cena/den | Doporučení |
+|--------|----------|-----------|---------------------|----------|------------|
+| **Donkey Republic** | Klasické | Náročné | Velmi vysoká (virtuální stanice) | ~12 EUR | **ANO — nejlepší pro rovinu** (pobřeží, Eixample, centrum) |
+| **Bolt** | E-bike | Snadné! | Střední (dock stanice) | ~6,50 EUR (day pass) | **ANO — nejlepší do kopců** (Montjuïc, Gràcia) |
+| Lime | Klasické | Náročné | Střední | Variabilní | Záloha pokud Donkey nedostupné |
+| RideMovi | E-bike | Snadné | Nízká (P-zóny) | Nejasná | **NE — rizikové poplatky** |
+| AMBici | E-bike | Snadné | Dock stanice | 0,15 EUR/30 min | **NE — jen mimo centrum** |
+| Cooltra | E-bike/moped | Snadné | Free-floating | 0,26 EUR/min | **NE — pomalá registrace, drahé** |
+
+**Nejlepší strategie:** Stáhnout **Donkey Republic + Bolt** — Donkey na rovné trasy, Bolt e-bike když jde do kopce.
+
+### Agregátorová appka: SMOU
+- Barcelonská oficiální appka pro mobilitu
+- Zobrazuje kola ze všech služeb na jedné mapě (Donkey, Bolt, Lime, RideMovi...)
+- Ke stažení zdarma, pomůže najít nejbližší dostupné kolo
+
+### Cyklistická infrastruktura
+- Přes 240 km chráněných cyklostezek
 - Únor = ideální (málo turistů, sucho, 13-16 °C)
-- Nejlepší trasy: pobřeží (7 km, rovné), Parc de la Ciutadella, Montjuïc (e-bike doporučen)
+- **Nejlepší trasy na kole:**
+  - Pobřeží Barceloneta → Forum (7 km, rovné, cyklostezka celou cestu)
+  - Parc de la Ciutadella (rovné, klidné)
+  - Eixample — široké bulváry s cyklostezkami
+  - Montjuïc — jen s e-bikem (Bolt)!
+
+### Pravidla pro cyklisty
+- Max. rychlost na cyklostezkách: **25 km/h**
+- Na chodnících: **10 km/h** (jen tam kde je povoleno)
+- V parcích: **10 km/h**
+- Kola jen na cyklostezkách nebo silnicích s limitem 30 km/h
+- Helma není povinná (ale doporučená)
+- Parkovat jen u stojanů na kola
 
 ## Harmonogram po dnech
 
