@@ -2,7 +2,7 @@
 
 ## Základní info
 - **Kdo:** 2 osoby, romantický výlet
-- **Přílet:** čtvrtek 12. února 2026, přílet ~15:00 (zpožděný let, původně 13:20)
+- **Přílet:** čtvrtek 12. února 2026, přílet ~17:00 (zpožděný let, původně 13:20, zpoždění ~3h40)
 - **Odlet:** neděle 15. února 2026, večer
 - **Počet nocí:** 3 (čt/pá/so)
 
@@ -453,38 +453,27 @@ Alternativně: stáhnout appku **Cartera T-mobilitat**, koupit jízdenku v mobil
 - **Kola:** NE, pěšky celý víkend
 - **Park Güell:** Lístky koupit předem!
 
-### ČTVRTEK 12. 2. — Přílet + Montjuïc (slunečno, 16°C)
+### ČTVRTEK 12. 2. — Přílet + Poble Sec + fontána (slunečno, 16°C)
+
+> **⚠️ Let zpožděn o ~3h40 (původně 13:20).** Montjuïc (zahrady, Miró) odpadá — po příletu bude tma (západ slunce ~18:10). Večerní program beze změny.
 
 | Čas | Aktivita | Kde | Poznámka |
 |-----|----------|-----|----------|
-| ~15:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min (zpožděný let) |
-| ~15:45 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci, osvěžit se |
-| 16:15 | **Na Montjuïc** — Bus 150 nebo pěšky | Viz varianty níže | ⚠️ Funicular UZAVŘEN do 2. 3. 2026! |
-| 16:45 | **Jardins Costa i Llobera** | Montjuïc (u Miramar) | 800 kaktusů, NY Times top 10 zahrad světa, ZDARMA. Výhledy na moře a přístav za slunce! |
-
-> **Jak na Montjuïc ve čtvrtek (funicular uzavřen!):**
-> - **Varianta A — Bus 150:** Z hotelu pěšky na Pl. Espanya (~10 min), bus 150 nahoru, výstup u zastávky Miramar/zahrady. Rychlejší.
-> - **Varianta B — Pěšky:** Z hotelu přes Carrer Poeta Cabanyes → Jardins de Laribal → Jardins Costa i Llobera (~25-30 min). Příjemná cesta přes Poble Sec a parky, uvidíte víc čtvrti.
-| ~17:45 | **Fundació Joan Miró** (volitelně) | Montjuïc (5 min od zahrad) | **ZDARMA** (Santa Eulàlia!). Po setmění (~18:10) — je to uvnitř. Do 19:00. Výstava "Miró and the United States" končí 22.2.! |
-| ~18:45 | Sestup z Montjuïc | Pěšky přes zahrady | |
-
-#### Večer — varianta A: Quimet & Quimet + fontána
-| Čas | Aktivita | Kde | Poznámka |
-|-----|----------|-----|----------|
+| ~17:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min |
+| ~17:50 | Příjezd Pl. Espanya, pěšky k hotelu | ~10 min | |
+| ~18:15 | Check-in Arco Hotel | Av. Paral·lel 172 | Odložit věci, osvěžit se |
+| ~18:45 | Procházka Poble Sec | Okolí hotelu | Plaça del Sortidor, Jardins de les Tres Xemeneies (graffiti stěny, tři komíny), uličky |
 | 19:15 | **Quimet & Quimet** | Poeta Cabanyes 25 | Legendární montaditos, 5. generace. Jen Po-Pá! ⚠️ **Zavírá ~20:00–20:30!** |
-| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00 |
-| 21:00 | Volný večer / drink v Poble Sec | | |
+| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00. ~15 min pěšky od Q&Q |
+| 21:00 | Volný večer — drink / pintxos | Poble Sec | Carrer de Blai (1-2 EUR/pintxo) nebo Gran Bodega Saltó (Blesa 36, 4 min od hotelu) |
 
-#### Večer — varianta B: fontána + pintxos crawl
-| Čas | Aktivita | Kde | Poznámka |
-|-----|----------|-----|----------|
-| 19:15 | Procházka Poble Sec | Okolí hotelu | Plaça del Sortidor, uličky |
-| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00 |
-| 21:00 | Pintxos na **Carrer de Blai** | Poble Sec | 1-2 EUR/pintxo, crawl přes několik barů. Víc jídla, víc zábavy |
+**Co odpadá kvůli zpoždění:**
+- ~~Jardins Costa i Llobera~~ (po tmě nemá smysl — zkusit v neděli ráno před odletem, nebo příště)
+- ~~Fundació Joan Miró~~ (zavírá v 19:00, nestihneme; promeškáno i volné vstupné za Santa Eulàlia)
 
-**Geografie:** Letiště → hotel → Bus 150 z Pl. Espanya na Montjuïc (zahrady za slunce, volitelně Miró po setmění) → sestup pěšky → večer v Poble Sec. Kompaktní trasa, vše v okolí hotelu. ⚠️ Funicular i lanovka uzavřeny do 2. 3. 2026!
+**Geografie:** Letiště → Aerobus → Pl. Espanya → hotel (pěšky 10 min) → procházka Poble Sec → Q&Q → fontána → zpět. Vše v okruhu 15 min od hotelu.
 
-> **Tip:** Quimet & Quimet a pintxos na Blai jsou si podobné (malé kousky, tapas vibe). Q&Q je kultovní zážitek ale zavírá brzy (~20:00). Blai je uvolněnější crawl s víc jídla. Nedoporučujeme obojí v jeden večer.
+> **Tip:** Quimet & Quimet je kultovní zážitek (zavírá brzy ~20:00). Po fontáně lze dojít na Carrer de Blai na pintxos nebo do Bodega Saltó na drink — ale Q&Q a Blai jsou si podobné, takže spíš jedno nebo druhé.
 
 ---
 
