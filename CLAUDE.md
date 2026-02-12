@@ -2,7 +2,7 @@
 
 ## Základní info
 - **Kdo:** 2 osoby, romantický výlet
-- **Přílet:** čtvrtek 12. února 2026, přílet ~15:00 (zpožděný let, původně 13:20)
+- **Přílet:** čtvrtek 12. února 2026, přílet ~14:45 (zpožděný let, původně 13:20, zpoždění ~1h25)
 - **Odlet:** neděle 15. února 2026, večer
 - **Počet nocí:** 3 (čt/pá/so)
 
@@ -453,12 +453,15 @@ Alternativně: stáhnout appku **Cartera T-mobilitat**, koupit jízdenku v mobil
 - **Kola:** NE, pěšky celý víkend
 - **Park Güell:** Lístky koupit předem!
 
-### ČTVRTEK 12. 2. — Přílet + Montjuïc (slunečno, 16°C)
+### ČTVRTEK 12. 2. — Přílet + Montjuïc + fontána (slunečno, 16°C)
+
+> **Let zpožděn o ~1h25 (původně 13:20, přílet ~14:45).** Montjuïc se stíhá — západ slunce ~18:10, máte ~2h denního světla na zahrady. Miró je ZDARMA (Santa Eulàlia)!
 
 | Čas | Aktivita | Kde | Poznámka |
 |-----|----------|-----|----------|
-| ~15:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min (zpožděný let) |
-| ~15:45 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci, osvěžit se |
+| ~14:45 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min |
+| ~15:30 | Příjezd Pl. Espanya, pěšky k hotelu | ~10 min | |
+| ~15:50 | Check-in Arco Hotel | Av. Paral·lel 172 | Odložit věci, osvěžit se |
 | 16:15 | **Na Montjuïc** — Bus 150 nebo pěšky | Viz varianty níže | ⚠️ Funicular UZAVŘEN do 2. 3. 2026! |
 | 16:45 | **Jardins Costa i Llobera** | Montjuïc (u Miramar) | 800 kaktusů, NY Times top 10 zahrad světa, ZDARMA. Výhledy na moře a přístav za slunce! |
 
