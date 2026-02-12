@@ -2,7 +2,7 @@
 
 ## Základní info
 - **Kdo:** 2 osoby, romantický výlet
-- **Přílet:** čtvrtek 12. února 2026, přílet 13:20
+- **Přílet:** čtvrtek 12. února 2026, přílet ~15:00 (zpožděný let, původně 13:20)
 - **Odlet:** neděle 15. února 2026, večer
 - **Počet nocí:** 3 (čt/pá/so)
 
@@ -270,23 +270,22 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 - **Kola:** NE, pěšky celý víkend
 - **Park Güell:** Lístky koupit předem!
 
-### ČTVRTEK 12. 2. — Přílet + Barceloneta + Montjuïc (slunečno, 16°C)
+### ČTVRTEK 12. 2. — Přílet + Montjuïc (slunečno, 16°C)
 
 | Čas | Aktivita | Kde | Poznámka |
 |-----|----------|-----|----------|
-| 13:20 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min |
-| ~14:00 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci |
-| 14:30 | Na Barcelonetu | Metro/pěšky ~20 min | |
-| 15:00 | **Procházka po pláži Barceloneta** | Barceloneta | Pláž, promenáda, rybářská čtvrť |
-| 16:00 | **Teleféric del Port** → Montjuïc | Barceloneta → Miramar | ~13 EUR/os, ~10 min, panoramatické výhledy na přístav a město |
-| 16:30 | **Fundació Joan Miró** | Montjuïc (15 min od Miramar) | **ZDARMA** (Santa Eulàlia!). Výstava "Miró and the United States" končí 22.2.! Do 19:00 |
-| 18:30 | **Jardins Costa i Llobera** | Montjuïc (vedle Miró) | 800 kaktusů, NY Times top 10, ZDARMA |
-| 19:00 | Sestup z Montjuïc | | |
+| ~15:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min (zpožděný let) |
+| ~15:45 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci, osvěžit se |
+| 16:15 | **Funicular z Paral·lel** → Montjuïc | Stanice Paral·lel (2 min od hotelu!) | Součást metrojízdenky, výstup Miramar |
+| 16:30 | **Fundació Joan Miró** | Montjuïc (5 min od stanice Miramar) | **ZDARMA** (Santa Eulàlia!). Výstava "Miró and the United States" končí 22.2.! Do 19:00 |
+| 18:30 | Sestup z Montjuïc | Pěšky přes zahrady | |
 | 19:15 | **Quimet & Quimet** | Poeta Cabanyes 25 | Legendární montaditos, 5. generace. Večerní hodiny (od ~19:00). Jen Po-Pá! |
 | 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, 15 min od hotelu, show do 21:00 |
 | 21:00 | Pintxos na **Carrer de Blai** | Poble Sec | 1-2 EUR/pintxo, crawl přes několik barů |
 
-**Geografie:** Letiště → hotel (check-in) → Barceloneta (pláž) → lanovkou na Montjuïc (Miró, zahrady) → sestup → Quimet & Quimet → fontána → Carrer de Blai. Krásný okruh přes moře i kopec.
+**Geografie:** Letiště → hotel (check-in) → funicularem na Montjuïc (Miró) → sestup → Quimet & Quimet → fontána → Carrer de Blai. Kompaktní trasa, vše v okolí hotelu.
+
+> ~~Původní plán zahrnoval Barcelonetu + Teleféric del Port + Jardins Costa i Llobera, ale kvůli zpožděnému letu (~15:00 místo 13:20) se nestíhají.~~
 
 ---
 
