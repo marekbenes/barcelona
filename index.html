@@ -448,6 +448,84 @@
     .buy-ahead { padding: 20px; }
   }
 
+  /* VOCABULARY / SLOVNÍČEK */
+  .vocab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+  }
+  .vocab-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px 26px;
+    box-shadow: var(--shadow);
+    border-top: 4px solid var(--warm);
+  }
+  .vocab-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15em;
+    margin-bottom: 16px;
+    color: var(--dark);
+  }
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .vocab-table tr {
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .vocab-table tr:last-child { border-bottom: none; }
+  .vocab-table td {
+    padding: 7px 4px;
+    font-size: 0.88em;
+    vertical-align: top;
+  }
+  .vocab-table td:first-child {
+    font-weight: 600;
+    color: var(--text);
+    width: 42%;
+    white-space: nowrap;
+  }
+  .vocab-table td:nth-child(2) {
+    color: var(--text-light);
+    width: 58%;
+  }
+  .vocab-lang {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .vocab-lang-es { background: #fef3c7; color: #b45309; }
+  .vocab-lang-ca { background: #fce7f3; color: #be185d; }
+  .vocab-pronun {
+    display: block;
+    font-size: 0.85em;
+    color: #999;
+    font-style: italic;
+    margin-top: 1px;
+  }
+  .vocab-note {
+    margin-top: 16px;
+    padding: 14px 18px;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-radius: 10px;
+    font-size: 0.85em;
+    color: #0c4a6e;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .vocab-grid { grid-template-columns: 1fr; }
+    .vocab-table td:first-child { width: 45%; }
+    .vocab-table td:nth-child(2) { width: 55%; }
+  }
+
   html { scroll-behavior: smooth; }
 </style>
 </head>
@@ -475,6 +553,7 @@
   <a href="#umeni">Umění &amp; muzea</a>
   <a href="#okoli">U hotelu</a>
   <a href="#bezpecnost">Bezpečnost</a>
+  <a href="#slovnicek">Slovníček</a>
 </nav>
 
 <!-- ======================== HARMONOGRAM ======================== -->
@@ -1719,6 +1798,169 @@
       <div><strong>Turistická pomoc (24h):</strong> <span style="font-size: 1.1em; color: var(--warm);">+34 932 853 832</span></div>
     </div>
     <p style="margin-top: 12px; font-size: 0.88em; color: var(--text-light);">Policejní stanice u La Rambla: Las Ramblas 43. Pokud vás okradou &rarr; hlásit na Mossos d'Esquadra (protokol pro pojišťovnu).</p>
+  </div>
+
+</section>
+
+<!-- ======================== SLOVNÍČEK ======================== -->
+<section id="slovnicek">
+  <h2>Slovníček</h2>
+  <div class="sep"></div>
+  <p class="section-desc">Základní fráze ve španělštině (ES) a katalánštině (CA). V Barceloně se mluví oběma jazyky &mdash; katalánština potěší místní, španělština funguje všude.</p>
+
+  <div class="vocab-grid">
+
+    <!-- POZDRAVY -->
+    <div class="vocab-card">
+      <h3>Pozdravy a zdvořilosti</h3>
+      <table class="vocab-table">
+        <tr><td>Dobrý den<span class="vocab-lang vocab-lang-es">ES</span></td><td>Hola / Buenos días<span class="vocab-pronun">ola / buenos días</span></td></tr>
+        <tr><td>Dobrý den<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Hola / Bon dia<span class="vocab-pronun">ola / bon dia</span></td></tr>
+        <tr><td>Dobré odpoledne<span class="vocab-lang vocab-lang-es">ES</span></td><td>Buenas tardes<span class="vocab-pronun">buenas tardes</span></td></tr>
+        <tr><td>Dobrý večer<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Bona tarda / Bona nit<span class="vocab-pronun">bona tarda / bona nit</span></td></tr>
+        <tr><td>Nashledanou<span class="vocab-lang vocab-lang-es">ES</span></td><td>Adiós / Hasta luego<span class="vocab-pronun">adijós / asta luégo</span></td></tr>
+        <tr><td>Nashledanou<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Adéu / Fins després<span class="vocab-pronun">adéu / fins despréss</span></td></tr>
+        <tr><td>Prosím<span class="vocab-lang vocab-lang-es">ES</span></td><td>Por favor<span class="vocab-pronun">por fabor</span></td></tr>
+        <tr><td>Prosím<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Si us plau<span class="vocab-pronun">si us pláu</span></td></tr>
+        <tr><td>Děkuji<span class="vocab-lang vocab-lang-es">ES</span></td><td>Gracias<span class="vocab-pronun">gracias</span></td></tr>
+        <tr><td>Děkuji<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Gràcies / Merci<span class="vocab-pronun">grasies / mersí</span></td></tr>
+        <tr><td>Není zač<span class="vocab-lang vocab-lang-es">ES</span></td><td>De nada<span class="vocab-pronun">de nada</span></td></tr>
+        <tr><td>Promiňte<span class="vocab-lang vocab-lang-es">ES</span></td><td>Perdón / Disculpe<span class="vocab-pronun">perdón / diskulpe</span></td></tr>
+        <tr><td>Promiňte<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Perdó / Disculpi<span class="vocab-pronun">perdó / diskulpi</span></td></tr>
+        <tr><td>Ano / Ne<span class="vocab-lang vocab-lang-es">ES</span></td><td>Sí / No<span class="vocab-pronun">sí / no</span></td></tr>
+      </table>
+    </div>
+
+    <!-- RESTAURACE -->
+    <div class="vocab-card">
+      <h3>V restauraci a baru</h3>
+      <table class="vocab-table">
+        <tr><td>Stůl pro dva<span class="vocab-lang vocab-lang-es">ES</span></td><td>Una mesa para dos<span class="vocab-pronun">una mésa para dos</span></td></tr>
+        <tr><td>Jídelní lístek<span class="vocab-lang vocab-lang-es">ES</span></td><td>La carta / el menú<span class="vocab-pronun">la karta / el menú</span></td></tr>
+        <tr><td>Objednal bych si&hellip;<span class="vocab-lang vocab-lang-es">ES</span></td><td>Querría / Me pone&hellip;<span class="vocab-pronun">kerría / me pone</span></td></tr>
+        <tr><td>Účet, prosím<span class="vocab-lang vocab-lang-es">ES</span></td><td>La cuenta, por favor<span class="vocab-pronun">la kuenta, por fabor</span></td></tr>
+        <tr><td>Účet<span class="vocab-lang vocab-lang-ca">CA</span></td><td>El compte, si us plau<span class="vocab-pronun">el konte, si us pláu</span></td></tr>
+        <tr><td>Pivo<span class="vocab-lang vocab-lang-es">ES</span></td><td>Una caña (točené)<span class="vocab-pronun">una kaňa</span></td></tr>
+        <tr><td>Víno (červ./bílé)<span class="vocab-lang vocab-lang-es">ES</span></td><td>Vino tinto / blanco<span class="vocab-pronun">bíno tinto / blanko</span></td></tr>
+        <tr><td>Voda<span class="vocab-lang vocab-lang-es">ES</span></td><td>Agua (con/sin gas)<span class="vocab-pronun">agua (kon/sin gas)</span></td></tr>
+        <tr><td>Káva<span class="vocab-lang vocab-lang-es">ES</span></td><td>Un café (con leche)<span class="vocab-pronun">un kafé (kon léče)</span></td></tr>
+        <tr><td>Vermut<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Un vermut, si us plau<span class="vocab-pronun">un bermut, si us pláu</span></td></tr>
+        <tr><td>Výborné!<span class="vocab-lang vocab-lang-es">ES</span></td><td>¡Está muy bueno!<span class="vocab-pronun">está mui buéno</span></td></tr>
+        <tr><td>Na zdraví!<span class="vocab-lang vocab-lang-es">ES</span></td><td>¡Salud!<span class="vocab-pronun">salud</span></td></tr>
+        <tr><td>Na zdraví!<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Salut!<span class="vocab-pronun">salut</span></td></tr>
+        <tr><td>Spropitné<span class="vocab-lang vocab-lang-es">ES</span></td><td>La propina<span class="vocab-pronun">la propina</span></td></tr>
+      </table>
+      <div class="vocab-note">
+        <strong>Tip:</strong> Spropitné v Barceloně není povinné. Zaokrouhlit nahoru nebo nechat 5-10 % je slušné gesto, ale nikdo to neočekává.
+      </div>
+    </div>
+
+    <!-- ORIENTACE -->
+    <div class="vocab-card">
+      <h3>Orientace a doprava</h3>
+      <table class="vocab-table">
+        <tr><td>Kde je&hellip;?<span class="vocab-lang vocab-lang-es">ES</span></td><td>¿Dónde está&hellip;?<span class="vocab-pronun">donde está</span></td></tr>
+        <tr><td>Kde je&hellip;?<span class="vocab-lang vocab-lang-ca">CA</span></td><td>On és&hellip;?<span class="vocab-pronun">on és</span></td></tr>
+        <tr><td>Vlevo / Vpravo<span class="vocab-lang vocab-lang-es">ES</span></td><td>Izquierda / Derecha<span class="vocab-pronun">iskjérda / deréča</span></td></tr>
+        <tr><td>Rovně<span class="vocab-lang vocab-lang-es">ES</span></td><td>Recto / Todo recto<span class="vocab-pronun">rekto / todo rekto</span></td></tr>
+        <tr><td>Blízko / Daleko<span class="vocab-lang vocab-lang-es">ES</span></td><td>Cerca / Lejos<span class="vocab-pronun">serka / léchos</span></td></tr>
+        <tr><td>Ulice<span class="vocab-lang vocab-lang-es">ES</span></td><td>Calle<span class="vocab-pronun">kaže</span></td></tr>
+        <tr><td>Ulice<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Carrer<span class="vocab-pronun">karé</span></td></tr>
+        <tr><td>Náměstí<span class="vocab-lang vocab-lang-es">ES</span></td><td>Plaza<span class="vocab-pronun">plasa</span></td></tr>
+        <tr><td>Náměstí<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Plaça<span class="vocab-pronun">plasa</span></td></tr>
+        <tr><td>Metro stanice<span class="vocab-lang vocab-lang-es">ES</span></td><td>La estación de metro<span class="vocab-pronun">la estasión de metro</span></td></tr>
+        <tr><td>Jízdenka<span class="vocab-lang vocab-lang-es">ES</span></td><td>El billete / el ticket<span class="vocab-pronun">el bižéte</span></td></tr>
+        <tr><td>Vstup / Výstup<span class="vocab-lang vocab-lang-es">ES</span></td><td>Entrada / Salida<span class="vocab-pronun">entrada / salida</span></td></tr>
+      </table>
+    </div>
+
+    <!-- NAKUPOVÁNÍ -->
+    <div class="vocab-card">
+      <h3>Nákupy a čísla</h3>
+      <table class="vocab-table">
+        <tr><td>Kolik to stojí?<span class="vocab-lang vocab-lang-es">ES</span></td><td>¿Cuánto cuesta?<span class="vocab-pronun">kuanto kuesta</span></td></tr>
+        <tr><td>Kolik to stojí?<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Quant costa?<span class="vocab-pronun">kuan kosta</span></td></tr>
+        <tr><td>Můžu platit kartou?<span class="vocab-lang vocab-lang-es">ES</span></td><td>¿Puedo pagar con tarjeta?<span class="vocab-pronun">puédo pagar kon targéta</span></td></tr>
+        <tr><td>Otevřeno / Zavřeno<span class="vocab-lang vocab-lang-es">ES</span></td><td>Abierto / Cerrado<span class="vocab-pronun">abjérto / serádo</span></td></tr>
+        <tr><td>Otevřeno / Zavřeno<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Obert / Tancat<span class="vocab-pronun">obert / tankat</span></td></tr>
+        <tr><td>1 / 2 / 3<span class="vocab-lang vocab-lang-es">ES</span></td><td>Uno / Dos / Tres<span class="vocab-pronun">uno / dos / tres</span></td></tr>
+        <tr><td>4 / 5 / 6<span class="vocab-lang vocab-lang-es">ES</span></td><td>Cuatro / Cinco / Seis<span class="vocab-pronun">kuatro / sinko / seis</span></td></tr>
+        <tr><td>7 / 8 / 9 / 10<span class="vocab-lang vocab-lang-es">ES</span></td><td>Siete / Ocho / Nueve / Diez<span class="vocab-pronun">sjéte / očo / nuéve / djés</span></td></tr>
+        <tr><td>Trh<span class="vocab-lang vocab-lang-es">ES</span></td><td>Mercado<span class="vocab-pronun">merkado</span></td></tr>
+        <tr><td>Trh<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Mercat<span class="vocab-pronun">merkat</span></td></tr>
+      </table>
+    </div>
+
+    <!-- UŽITEČNÉ FRÁZE -->
+    <div class="vocab-card">
+      <h3>Užitečné fráze</h3>
+      <table class="vocab-table">
+        <tr><td>Nemluvím španělsky<span class="vocab-lang vocab-lang-es">ES</span></td><td>No hablo español<span class="vocab-pronun">no ablo espaňol</span></td></tr>
+        <tr><td>Mluvíte anglicky?<span class="vocab-lang vocab-lang-es">ES</span></td><td>¿Habla inglés?<span class="vocab-pronun">abla inglés</span></td></tr>
+        <tr><td>Nerozumím<span class="vocab-lang vocab-lang-es">ES</span></td><td>No entiendo<span class="vocab-pronun">no entjéndo</span></td></tr>
+        <tr><td>Mám rezervaci<span class="vocab-lang vocab-lang-es">ES</span></td><td>Tengo una reserva<span class="vocab-pronun">tengo una reserba</span></td></tr>
+        <tr><td>Dva lístky<span class="vocab-lang vocab-lang-es">ES</span></td><td>Dos entradas<span class="vocab-pronun">dos entradas</span></td></tr>
+        <tr><td>Kde jsou toalety?<span class="vocab-lang vocab-lang-es">ES</span></td><td>¿Dónde están los servicios?<span class="vocab-pronun">donde están los servísios</span></td></tr>
+        <tr><td>Pomoc!<span class="vocab-lang vocab-lang-es">ES</span></td><td>¡Ayuda! / ¡Socorro!<span class="vocab-pronun">ajuda / sokoro</span></td></tr>
+        <tr><td>Zavolejte policii<span class="vocab-lang vocab-lang-es">ES</span></td><td>Llame a la policía<span class="vocab-pronun">žame a la polisía</span></td></tr>
+        <tr><td>Je to krásné<span class="vocab-lang vocab-lang-es">ES</span></td><td>Es muy bonito/a<span class="vocab-pronun">es mui bonito/a</span></td></tr>
+        <tr><td>Miluji tě<span class="vocab-lang vocab-lang-es">ES</span></td><td>Te quiero<span class="vocab-pronun">te kjéro</span></td></tr>
+        <tr><td>Miluji tě<span class="vocab-lang vocab-lang-ca">CA</span></td><td>T'estimo<span class="vocab-pronun">testimo</span></td></tr>
+      </table>
+      <div class="vocab-note">
+        <strong>Valentýnský bonus:</strong> &bdquo;T'estimo&ldquo; (katalánsky) zní krásně a místní ocení, že to znáte. Španělsky &bdquo;Te quiero&ldquo; (běžné) nebo &bdquo;Te amo&ldquo; (silnější, vážnější).
+      </div>
+    </div>
+
+    <!-- JÍDLO - NÁZVY NA MENU -->
+    <div class="vocab-card">
+      <h3>Jídlo &mdash; co uvidíte na menu</h3>
+      <table class="vocab-table">
+        <tr><td>Pintxo / Tapa<span class="vocab-lang vocab-lang-es">ES</span></td><td>Malé jídlo na jednohubku / k pivu<span class="vocab-pronun">pinčo / tapa</span></td></tr>
+        <tr><td>Pa amb tomàquet<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Chleba s rajčetem a olejem<span class="vocab-pronun">pa amb tumáket</span></td></tr>
+        <tr><td>Botifarra<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Katalánská klobása<span class="vocab-pronun">butifarə</span></td></tr>
+        <tr><td>Fideuà<span class="vocab-lang vocab-lang-ca">CA</span></td><td>&bdquo;Paella&ldquo; z nudlí s mořskými plody<span class="vocab-pronun">fideuá</span></td></tr>
+        <tr><td>Escalivada<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Pečená zelenina<span class="vocab-pronun">eskalivadə</span></td></tr>
+        <tr><td>Arròs negre<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Černá rýže (inkoust sépie)<span class="vocab-pronun">aros negre</span></td></tr>
+        <tr><td>Crema Catalana<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Katalánský crème brûlée<span class="vocab-pronun">krema katalanə</span></td></tr>
+        <tr><td>Xuixo<span class="vocab-lang vocab-lang-ca">CA</span></td><td>Smažený croissant s krémem<span class="vocab-pronun">šušo</span></td></tr>
+        <tr><td>Jamón<span class="vocab-lang vocab-lang-es">ES</span></td><td>Šunka (ibérico = top)<span class="vocab-pronun">chamón</span></td></tr>
+        <tr><td>Gambas<span class="vocab-lang vocab-lang-es">ES</span></td><td>Krevety<span class="vocab-pronun">gambas</span></td></tr>
+        <tr><td>Pulpo<span class="vocab-lang vocab-lang-es">ES</span></td><td>Chobotnice<span class="vocab-pronun">pulpo</span></td></tr>
+        <tr><td>Bombas<span class="vocab-lang vocab-lang-es">ES</span></td><td>Bramborové kuličky, specialita Barcelonety<span class="vocab-pronun">bombas</span></td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- Výslovnostní poznámky -->
+  <div style="margin-top: 32px; padding: 24px; background: white; border-radius: 12px; box-shadow: var(--shadow); border-top: 4px solid var(--gold);">
+    <h3 style="margin-bottom: 12px; font-family: 'Playfair Display', serif;">Výslovnostní tipy</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; font-size: 0.92em;">
+      <div>
+        <strong style="color: var(--warm);">Španělština</strong>
+        <ul style="margin-top: 8px; padding-left: 18px; color: var(--text-light); line-height: 1.8;">
+          <li><strong>J</strong> = ch (jako v &bdquo;loch&ldquo;): jamón → chamón</li>
+          <li><strong>LL</strong> = ž: calle → kaže</li>
+          <li><strong>Ñ</strong> = ň: España → Espaňa</li>
+          <li><strong>V</strong> = b: vino → bíno</li>
+          <li><strong>Z / CE / CI</strong> = s: gracias → grasias</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color: var(--warm);">Katalánština</strong>
+        <ul style="margin-top: 8px; padding-left: 18px; color: var(--text-light); line-height: 1.8;">
+          <li><strong>X</strong> = š: xuixo → šušo</li>
+          <li><strong>TX</strong> = č: txakoli → čakoli</li>
+          <li><strong>L&middot;L</strong> = zdvojené l: paral&middot;lel</li>
+          <li><strong>NY</strong> = ň: Catalunya → Kataluňa</li>
+          <li>Nepřízvučné <strong>A / E</strong> → ə (jako anglické &bdquo;a&ldquo; v &bdquo;about&ldquo;)</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top: 16px; font-size: 0.85em; color: var(--text-light);">
+      <strong>Poznámka:</strong> V Barceloně se mluví oběma jazyky. Nápisy, menu i metro jsou většinou dvojjazyčné. Když začnete katalánsky (&bdquo;Bon dia!&ldquo;), místní to ocení &mdash; ale klidně přepnou do španělštiny nebo angličtiny.
+    </p>
   </div>
 
 </section>

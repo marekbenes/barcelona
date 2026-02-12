@@ -433,6 +433,77 @@ Barcelona není nebezpečné město, ale kapesní krádeže tvoří ~50 % veške
 | Turistická pomoc (24h, vícejazyčně) | **+34 932 853 832** |
 | Policejní stanice u La Rambla | Las Ramblas 43 |
 
+## Slovníček - Španělština & Katalánština
+
+### Pozdravy
+| Česky | Španělsky (ES) | Katalánsky (CA) |
+|-------|---------------|-----------------|
+| Dobrý den | Hola / Buenos días | Hola / Bon dia |
+| Dobré odpoledne | Buenas tardes | Bona tarda |
+| Dobrý večer | Buenas noches | Bona nit |
+| Nashledanou | Adiós / Hasta luego | Adéu / Fins després |
+| Prosím | Por favor | Si us plau |
+| Děkuji | Gracias | Gràcies / Merci |
+| Není zač | De nada | De res |
+| Promiňte | Perdón / Disculpe | Perdó / Disculpi |
+| Ano / Ne | Sí / No | Sí / No |
+
+### V restauraci
+| Česky | Španělsky (ES) | Katalánsky (CA) |
+|-------|---------------|-----------------|
+| Stůl pro dva | Una mesa para dos | Una taula per a dos |
+| Jídelní lístek | La carta / el menú | La carta / el menú |
+| Účet, prosím | La cuenta, por favor | El compte, si us plau |
+| Pivo (točené) | Una caña | Una canya |
+| Víno červené/bílé | Vino tinto / blanco | Vi negre / blanc |
+| Voda | Agua (con/sin gas) | Aigua (amb/sense gas) |
+| Káva s mlékem | Café con leche | Cafè amb llet |
+| Výborné! | ¡Está muy bueno! | Està molt bo! |
+| Na zdraví! | ¡Salud! | Salut! |
+
+### Orientace
+| Česky | Španělsky (ES) | Katalánsky (CA) |
+|-------|---------------|-----------------|
+| Kde je...? | ¿Dónde está...? | On és...? |
+| Vlevo / Vpravo | Izquierda / Derecha | Esquerra / Dreta |
+| Rovně | Todo recto | Tot recte |
+| Blízko / Daleko | Cerca / Lejos | A prop / Lluny |
+| Ulice | Calle | Carrer |
+| Náměstí | Plaza | Plaça |
+
+### Užitečné fráze
+| Česky | Španělsky (ES) |
+|-------|---------------|
+| Nemluvím španělsky | No hablo español |
+| Mluvíte anglicky? | ¿Habla inglés? |
+| Nerozumím | No entiendo |
+| Kolik to stojí? | ¿Cuánto cuesta? |
+| Můžu platit kartou? | ¿Puedo pagar con tarjeta? |
+| Mám rezervaci | Tengo una reserva |
+| Kde jsou toalety? | ¿Dónde están los servicios? |
+| Je to krásné | Es muy bonito/a |
+| Miluji tě | Te quiero (ES) / T'estimo (CA) |
+
+### Jídlo na menu
+| Název | Co to je | Výslovnost |
+|-------|---------|-----------|
+| Pa amb tomàquet | Chleba s rajčetem a olejem | pa amb tumáket |
+| Fideuà | "Paella" z nudlí s mořskými plody | fideuá |
+| Botifarra | Katalánská klobása | butifarə |
+| Escalivada | Pečená zelenina | eskalivadə |
+| Arròs negre | Černá rýže (inkoust sépie) | aros negre |
+| Crema Catalana | Katalánský crème brûlée | krema katalanə |
+| Xuixo | Smažený croissant s krémem | šušo |
+| Bombas | Bramborové kuličky (Barceloneta) | bombas |
+| Jamón | Šunka (ibérico = top) | chamón |
+| Gambas | Krevety | gambas |
+| Pulpo | Chobotnice | pulpo |
+| Pintxo | Jednohubka na párátku | pinčo |
+
+### Výslovnost
+- **Španělština:** J = ch (jamón → chamón), LL = ž (calle → kaže), Ñ = ň, V = b (vino → bíno), Z/CE/CI = s
+- **Katalánština:** X = š (xuixo → šušo), TX = č, L·L = zdvojené l, NY = ň, nepřízvučné A/E → ə
+
 ## Web
 - **Soubor:** `index.html` (ve stejné složce jako tento CLAUDE.md)
 - **Lokální server:** `python3 -m http.server 8766` → http://localhost:8766/index.html
