@@ -277,15 +277,27 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 | ~15:00 | Přílet, Aerobus L1 → Pl. Espanya | Letiště → Poble Sec | 6.75 EUR, ~35 min (zpožděný let) |
 | ~15:45 | Check-in hotel | Arco Hotel, Av. Paral·lel 172 | Odložit věci, osvěžit se |
 | 16:15 | **Funicular z Paral·lel** → Montjuïc | Stanice Paral·lel (2 min od hotelu!) | Součást metrojízdenky, výstup Miramar |
-| 16:30 | **Fundació Joan Miró** | Montjuïc (5 min od stanice Miramar) | **ZDARMA** (Santa Eulàlia!). Výstava "Miró and the United States" končí 22.2.! Do 19:00 |
-| 18:30 | Sestup z Montjuïc | Pěšky přes zahrady | |
-| 19:15 | **Quimet & Quimet** | Poeta Cabanyes 25 | Legendární montaditos, 5. generace. Večerní hodiny (od ~19:00). Jen Po-Pá! |
-| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, 15 min od hotelu, show do 21:00 |
-| 21:00 | Pintxos na **Carrer de Blai** | Poble Sec | 1-2 EUR/pintxo, crawl přes několik barů |
+| 16:30 | **Jardins Costa i Llobera** | Montjuïc (5 min od stanice Miramar) | 800 kaktusů, NY Times top 10 zahrad světa, ZDARMA. Výhledy na moře a přístav za slunce! |
+| ~17:45 | **Fundació Joan Miró** (volitelně) | Montjuïc (5 min od zahrad) | **ZDARMA** (Santa Eulàlia!). Po setmění (~18:10) — je to uvnitř. Do 19:00. Výstava "Miró and the United States" končí 22.2.! |
+| ~18:45 | Sestup z Montjuïc | Pěšky přes zahrady | |
 
-**Geografie:** Letiště → hotel (check-in) → funicularem na Montjuïc (Miró) → sestup → Quimet & Quimet → fontána → Carrer de Blai. Kompaktní trasa, vše v okolí hotelu.
+#### Večer — varianta A: Quimet & Quimet + fontána
+| Čas | Aktivita | Kde | Poznámka |
+|-----|----------|-----|----------|
+| 19:15 | **Quimet & Quimet** | Poeta Cabanyes 25 | Legendární montaditos, 5. generace. Jen Po-Pá! ⚠️ **Zavírá ~20:00–20:30!** |
+| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00 |
+| 21:00 | Volný večer / drink v Poble Sec | | |
 
-> ~~Původní plán zahrnoval Barcelonetu + Teleféric del Port + Jardins Costa i Llobera, ale kvůli zpožděnému letu (~15:00 místo 13:20) se nestíhají.~~
+#### Večer — varianta B: fontána + pintxos crawl
+| Čas | Aktivita | Kde | Poznámka |
+|-----|----------|-----|----------|
+| 19:15 | Procházka Poble Sec | Okolí hotelu | Plaça del Sortidor, uličky |
+| 20:00 | **Magická fontána** | Av. Reina Maria Cristina | ZDARMA, show do 21:00 |
+| 21:00 | Pintxos na **Carrer de Blai** | Poble Sec | 1-2 EUR/pintxo, crawl přes několik barů. Víc jídla, víc zábavy |
+
+**Geografie:** Letiště → hotel → funicularem na Montjuïc (zahrady za slunce, volitelně Miró po setmění) → sestup → večer v Poble Sec. Kompaktní trasa, vše v okolí hotelu.
+
+> **Tip:** Quimet & Quimet a pintxos na Blai jsou si podobné (malé kousky, tapas vibe). Q&Q je kultovní zážitek ale zavírá brzy (~20:00). Blai je uvolněnější crawl s víc jídla. Nedoporučujeme obojí v jeden večer.
 
 ---
 
@@ -333,23 +345,25 @@ Svátek Santa Eulàlia → MACBA, CCCB i Fundació Miró ZDARMA. Ideální na pr
 
 ---
 
-### NEDĚLE 15. 2. — Odlet (slunečno, 13°C)
+### NEDĚLE 15. 2. — Pláž + odlet (slunečno, 13°C)
 
 **Odlet v 15:15 → na letišti 13:15 → Aerobus 12:30 → checkout 12:00**
 
 | Čas | Aktivita | Kde | Poznámka |
 |-----|----------|-----|----------|
 | 8:30 | Snídaně | Hotel bufet | |
-| 9:00 | **Mercat de Sant Antoni** | Comte d'Urgell 1 (5 min) | Neděle = bleší trh! Knihy, pohlednice, staré mince |
-| 10:15 | **Pohodové ráno v Poble Sec** | Poble Sec | Plaça del Sortidor, Jardins de les Tres Xemeneies, káva v lokální kavárně. Rozloučení s "vaší" čtvrtí |
-| 11:15 | Zpět do hotelu, kufry | | |
+| 9:15 | **Na Barcelonetu** | Metro L3 Poble Sec → Drassanes (1 zastávka), pak 10 min pěšky přes Port Vell. Nebo celé pěšky ~20 min. | |
+| 9:30 | **Procházka po pláži Barceloneta** | Barceloneta | Ranní pláž, promenáda, rybářská čtvrť. 13°C, slunečno. Káva s výhledem na moře |
+| 10:30 | Zpět směr hotel | Metro/pěšky ~20 min | |
+| 11:00 | Zastavit v **Mercat de Sant Antoni** (volitelně) | Comte d'Urgell 1 (5 min od hotelu) | Neděle = bleší trh! Knihy, pohlednice, staré mince. Rychlá zastávka cestou |
+| 11:30 | Zpět do hotelu, kufry | | |
 | 12:00 | Checkout | Arco Hotel | |
 | 12:15 | Procházka k Pl. Espanya | | |
 | 12:30 | **Aerobus L1** → letiště | Pl. Espanya | ~35 min, 6.75 EUR |
 | 13:15 | Na letišti | | |
 | **15:15** | **Odlet** | | |
 
-**Geografie:** Hotel → Sant Antoni (5 min) → Poble Sec procházka → hotel → Pl. Espanya (5 min) → letiště. Vše v okruhu 10 min od hotelu.
+**Geografie:** Hotel → Barceloneta (metro 1 zastávka + 10 min pěšky) → pláž → zpět → volitelně Sant Antoni (5 min od hotelu) → hotel → Pl. Espanya → letiště.
 
 ---
 
